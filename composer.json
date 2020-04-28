@@ -1,0 +1,14 @@
+{
+  "name": "enupal-docs",
+  "description": "Enupal Docs",
+  "type": "project",
+  "minimun-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "enupal\\docs\\": "src/"
+    }
+  },
+  "require": {
+    "kub-at/php-simple-html-dom-parser": "^1.9"
+  }
+}
