@@ -2,7 +2,7 @@
 
 Now that you have installed the Stripe Payments plugin from the Craft CMS plugin store, you can now connect it to your Stripe account. You'll first need to retrieve your Stripe API, and then enter these credentials into the Stripe Payments Settings page.
 
-Visit [Stripe.com](https://stripe.com/) to get your API keys. Once you are on the Stripe webpage, sign in, and go to your _dashboard_ and select **Developers → API Keys** from the menu. Make sure to have **"Viewing Test Data****"** enabled to have Test mode enabled before your site go live.
+Visit [Stripe.com](https://stripe.com/) to get your API keys. Once you are on the Stripe webpage, sign in, and go to your _dashboard_ and select **Developers → API Keys** from the menu. Make sure to have **"Viewing Test Data**" enabled to have Test mode enabled before your site go live.
 
 ![Developr -> Api Keys (Stripe.com)](https://enupal.com/assets/docs/_lightboxdocs/02-stripe-payments.png)
 
@@ -11,8 +11,8 @@ Please go ahead an open in a new tab the settings of the Stripe Payments plugin:
 For the next steps, you’re going to be switching between the 2 tabs and copy 4 keys from Stripe to be saved in the Stripe Payments plugin.
 
 1.  Under your Stripe Payments settings, make sure that the "**Test Mode**" lightswitch is enabled.
-2.  Back in your Stripe dashboard tab, please copy your Publishable key (_starts with “pk\_test\_”_), switching to your Stripe Payments Settings tab, and pasting it into the "**Test Publishable Key" ** text box
-3.  Now do the same for the Secret key (_starts with “sk\_test\_”_), and pasting it into the "**Test Secret Key" ** text box.
+2.  Back in your Stripe dashboard tab, please copy your Publishable key (_starts with “pk\_test\_”_), switching to your Stripe Payments Settings tab, and pasting it into the "**Test Publishable Key**" text box
+3.  Now do the same for the Secret key (_starts with “sk\_test\_”_), and pasting it into the "**Test Secret Key**"  text box.
 
 The next step is do the same for your live keys. Under your Stripe Payments settings, make sure that the "**Test Mode**" lightswitch is disabled.
 
