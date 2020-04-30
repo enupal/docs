@@ -6,7 +6,7 @@ In your Craft CMS dashboard go to **Stripe Payments** → **Payment Forms** �
 
 You'll be redirected to the **Edit Payment Form** you'll notice that a generic **Handle** is created when you create a new Payment Form. You can use this handle to display the Stripe Payment Form in the Craft templates.
 
-![Add a new Payment Form](https://enupal.com/assets/docs/_lightboxdocs/01-stripe-payments.png)
+![Add a new Payment Form](https://enupal.com/assets/docs/01-stripe-payments.png)
 
 ## Payment Options
 
@@ -21,11 +21,11 @@ You'll see that new input fields are displayed:
 Set the [Overlay Display](http://enupal.com/craft-plugins/stripe-payments/docs/stripe-payment-forms/one-time-payment-form#stripe-checkout-overlay-display) and [Display the payment form](http://enupal.com/craft-plugins/stripe-payments/docs/stripe-payment-forms/one-time-payment-form#adding-your-payment-form-to-your-craft-templates) in your templates.
 
 
-![One-Time custom amount Settings](https://enupal.com/assets/docs/_lightboxdocs/11-stripe-payments.png)
+![One-Time custom amount Settings](https://enupal.com/assets/docs/11-stripe-payments.png)
 
-![Payment Form](https://enupal.com/assets/docs/_lightboxdocs/12-stripe-payments.png)
+![Payment Form](https://enupal.com/assets/docs/12-stripe-payments.png)
 
-![Stripe Checkout](https://enupal.com/assets/docs/_lightboxdocs/13-stripe-payments.png)
+![Stripe Checkout](https://enupal.com/assets/docs/13-stripe-payments.png)
 
 ## Recurring Payment
 
@@ -35,8 +35,8 @@ To add this feature to your Payment Form, please go ahead and enable the **Recu
 
 In your template, you'll see a checkbox to allow the customer or donor accepts to pay a recurring custom amount.
 
-![Recurring Payment](https://enupal.com/assets/docs/_lightboxdocs/14-stripe-payments.png)
+![Recurring Payment](https://enupal.com/assets/docs/14-stripe-payments.png)
 
-![Recurring Payment checkbox](https://enupal.com/assets/docs/_lightboxdocs/15-stripe-payments.png)
+![Recurring Payment checkbox](https://enupal.com/assets/docs/15-stripe-payments.png)
 
 

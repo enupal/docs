@@ -15,4 +15,4 @@ To enable Taxes in Stripe Payments please follow the next instructions:
 That's it! This setting will automatically add the tax rate to any Subscription form including recurring payments.
 
 
-![Taxes settings](https://enupal.com/assets/docs/_lightboxdocs/29-stripe-payments.png)
+![Taxes settings](https://enupal.com/assets/docs/29-stripe-payments.png)

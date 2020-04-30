@@ -11,10 +11,10 @@ On the **Edit Payment Form** page you can enable the next settings in the right 
 You can check the Address in the Order View.
 
 
-![Enable Shipping and Billing Address](https://enupal.com/assets/docs/_lightboxdocs/26-stripe-payments.png)
+![Enable Shipping and Billing Address](https://enupal.com/assets/docs/26-stripe-payments.png)
 
-![Shipping and Billing Address in Stripe Checkout](https://enupal.com/assets/docs/_lightboxdocs/27-stripe-payments.png)
+![Shipping and Billing Address in Stripe Checkout](https://enupal.com/assets/docs/27-stripe-payments.png)
 
-![Shipping and Billing Address in Order details](https://enupal.com/assets/docs/_lightboxdocs/28-stripe-payments.png)
+![Shipping and Billing Address in Order details](https://enupal.com/assets/docs/28-stripe-payments.png)
 
 

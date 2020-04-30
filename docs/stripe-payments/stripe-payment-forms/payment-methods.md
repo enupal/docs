@@ -11,8 +11,8 @@ Stripe Checkout is an embeddable payment form for desktop, tablet, and mobile de
 When you create a Stripe Payment Form this method will be enabled by default:
 
 
-![Enable Stripe Checkout](https://enupal.com/assets/docs/_lightboxdocs/35-stripe-payments.png)
-![Stripe Checkout fom](https://enupal.com/assets/docs/_lightboxdocs/09-stripe-payments.png)
+![Enable Stripe Checkout](https://enupal.com/assets/docs/35-stripe-payments.png)
+![Stripe Checkout fom](https://enupal.com/assets/docs/09-stripe-payments.png)
 
 ## Stripe Elements
 
@@ -22,9 +22,9 @@ When you create a Stripe Payment Form you need to disable "Enable Stripe Checkou
 
 In order to support [recurring iDEAL Payments](https://stripe.com/docs/sources/ideal/recurring), you need to have enabled [SEPA Direct Debit](https://stripe.com/docs/sources/sepa-debit) in your Stripe account and add a Webhook URL to your Stripe account more info [here](https://enupal.com/craft-plugins/stripe-payments/docs/stripe-payment-forms/webhook#entry:6222:url).
 
-![Enable Stripe Elements](https://enupal.com/assets/docs/_lightboxdocs/36-stripe-payments.png)
+![Enable Stripe Elements](https://enupal.com/assets/docs/36-stripe-payments.png)
 
-![Card element example](https://enupal.com/assets/docs/_lightboxdocs/37-stripe-payments.png)
+![Card element example](https://enupal.com/assets/docs/37-stripe-payments.png)
 
-![iDEAL element example](https://enupal.com/assets/docs/_lightboxdocs/40-stripe-payments.png)
+![iDEAL element example](https://enupal.com/assets/docs/40-stripe-payments.png)
 

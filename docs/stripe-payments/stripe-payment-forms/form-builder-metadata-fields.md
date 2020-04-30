@@ -41,11 +41,11 @@ If you need pass custom variables, you can use the **_addVariables_** action, le
 {{ craft.enupalstripe.paymentForm('translate') }}
 ```
 
-![Form Builder](https://enupal.com/assets/docs/_lightboxdocs/22-stripe-payments.png)
+![Form Builder](https://enupal.com/assets/docs/22-stripe-payments.png)
 
-![Form Fields](https://enupal.com/assets/docs/_lightboxdocs/23-stripe-payments.png)
+![Form Fields](https://enupal.com/assets/docs/23-stripe-payments.png)
 
-![Form Fields In Order details](https://enupal.com/assets/docs/_lightboxdocs/24-stripe-payments.png)
+![Form Fields In Order details](https://enupal.com/assets/docs/24-stripe-payments.png)
 
-![Form Fields as Metadata in Stripe Order details](https://enupal.com/assets/docs/_lightboxdocs/25-stripe-payments.png)
+![Form Fields as Metadata in Stripe Order details](https://enupal.com/assets/docs/25-stripe-payments.png)
 

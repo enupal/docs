@@ -7,9 +7,20 @@ module.exports = {
   plugins: [
     [
       '@vuepress/google-analytics', {
-      ga: ''
-    }
-    ]
+        ga: ''
+      }
+    ],
+      [
+        'vuepress-plugin-zooming',
+        {
+          selector: '.content__default img',
+          delay: 1000,
+          options: {
+            bgColor: '#fbfcfd',
+            zIndex: 10000,
+          },
+        },
+      ]
   ],
   markdown: {
     anchor: {level: [2, 3]},
@@ -83,6 +94,7 @@ module.exports = {
             'templating/getorderbynumber',
             'templating/orders-display-form-fields-values-metadata',
             'templating/orders-display-address',
+            'templating/get-subscription',
             'templating/cancel-subscriptions',
             'templating/display-errors',
             'templating/update-card-info',

@@ -14,7 +14,7 @@ Select the plan that you want the customer sign up. If you can't see your Stripe
 
 Finally, you can specify a **Setup Fee** to be added to the first payment only.
 
-![Set Single Plan](https://enupal.com/assets/docs/_lightboxdocs/16-stripe-payments.png)
+![Set Single Plan](https://enupal.com/assets/docs/16-stripe-payments.png)
 
 ## Custom Amount
 
@@ -26,4 +26,4 @@ When you **Enable Custom Amount** lightswitch the custom plan settings will be 
 This will create a Product and associate automatically a Subscription plan to the customer.
 :::
 
-![Custom Amount](https://enupal.com/assets/docs/_lightboxdocs/17-stripe-payments.png)
+![Custom Amount](https://enupal.com/assets/docs/17-stripe-payments.png)

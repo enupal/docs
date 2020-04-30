@@ -5,18 +5,20 @@ Metered billing is useful in cases where you want to charge your customers a gra
   
 When the customer subscribes to the plan, Stripe Payments will save the [subscription item](https://stripe.com/docs/api#subscription_items) id, this id is used for usage reporting. You can grab manually this id from the view order page or from the subscription model.
 
-![Stripe Payments Metered Subscription](https://enupal.com/assets/docs/_lightboxdocs/stripe-payments-metered-1.png)
+![Stripe Payments Metered Subscription](https://enupal.com/assets/docs/stripe-payments-metered-1.png)
 
 ## Reporting usage
 
 To report the usage you can use the next examples:
+
+::: code
 
 ```php
 // PHP EXAMPLE
 use Craft;
 use enupal\stripe\Stripe;
 
-....
+...
 
 $currentUser = Craft::$app->getUser()->getIdentity();
 $orders = Stripe::$app->subscriptions->getSubscriptionsByUser($currentUser->id);
@@ -47,3 +49,4 @@ foreach ($orders as $order) {
     {% endif %}
 {% endfor %}
 ```
+:::

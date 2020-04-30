@@ -31,6 +31,6 @@ The following events are required by Stripe Payments, feel free to review the [f
 If you're using Stripe Elements and using the iDEAL payment method OR if you have SCA enabled,  saving the webhook URL to your Stripe Account is required 
 :::
 
-![Webhook Url](https://enupal.com/assets/docs/_lightboxdocs/39-stripe-payments.png)
+![Webhook Url](https://enupal.com/assets/docs/39-stripe-payments.png)
 
 

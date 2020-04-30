@@ -17,6 +17,6 @@ Next, you can add and select the plans that the customer will see before the pa
 *   Add a **Setup Fee** for the first payment only.
 *   Make as the default option
 
-![Customer Chooses Plan](https://enupal.com/assets/docs/_lightboxdocs/18-stripe-payments.png)
+![Customer Chooses Plan](https://enupal.com/assets/docs/18-stripe-payments.png)
 
 

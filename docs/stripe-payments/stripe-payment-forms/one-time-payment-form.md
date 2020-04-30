@@ -5,13 +5,13 @@ In your Craft CMS dashboard go to **Stripe Payments** → **Payment Forms**→ 
 
 You'll be redirected to the **Edit Payment Form** you'll notice that a generic **Handle** is created when you create a new Payment Form. You can use this handle to display the Stripe Payment Form in the Craft templates.
 
-![New Stripe Payment Form](https://enupal.com/assets/docs/_lightboxdocs/01-stripe-payments.png)
+![New Stripe Payment Form](https://enupal.com/assets/docs/01-stripe-payments.png)
 
 ## Payment Options
 
 Let's create a One-Time payment option. In the right sidebar menu under **Amount Type** please select **One-Time set amount.** Go ahead and change the price and the currency.**Enable Stripe Checkout** if you want to use [Stripe Checkout](https://stripe.com/checkout) if disabled the payment form will be powered by [Stripe Elements](https://stripe.com/elements), at the moment we support [Cards](https://stripe.com/docs/sources/cards) and [iDEAL](https://stripe.com/docs/sources/ideal), feel free to [reach us](https://enupal.com/contact-us#entry:29:url) if you want to support any other [source](https://stripe.com/docs/sources).
 
-![One-Time set amount](https://enupal.com/assets/docs/_lightboxdocs/30-stripe-payments.png)
+![One-Time set amount](https://enupal.com/assets/docs/30-stripe-payments.png)
 
 ## Stripe Checkout Overlay Display
 
@@ -21,7 +21,7 @@ In the **General** Tab, go ahead and enter your company name, item description,
 
 Note you can upload a logo or image to appear on the checkout overlay here.
 
-![Overlay Options](https://enupal.com/assets/docs/_lightboxdocs/31-stripe-payments.png)
+![Overlay Options](https://enupal.com/assets/docs/31-stripe-payments.png)
 
 ### Pay Button Settings
 
@@ -31,7 +31,7 @@ Under the same General Tab you'll find the Pay Button Settings. Here you can ove
 *   **Payment Button Processing Text:** Show some text while the payment is processing by Stripe and before redirect to the Return URL
 *   **Checkout Button Text:** The text used in the Stripe Checkout form. You can use {{amount}} to add the final amount to charge.
 
-![Pay Button Settings](https://enupal.com/assets/docs/_lightboxdocs/32-stripe-payments.png)
+![Pay Button Settings](https://enupal.com/assets/docs/32-stripe-payments.png)
 
 ## Adding your Payment Form to your Craft Templates
 
