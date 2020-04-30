@@ -129,7 +129,8 @@ module.exports = {
           title: 'Notifications',
           collapsable: false,
           children: [
-            'notifications/customer'
+            'notifications/customer',
+            'notifications/admin'
           ]
         },
         {
