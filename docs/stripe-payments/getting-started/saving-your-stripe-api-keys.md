@@ -4,7 +4,7 @@ Now that you have installed the Stripe Payments plugin from the Craft CMS plugin
 
 Visit [Stripe.com](https://stripe.com/) to get your API keys. Once you are on the Stripe webpage, sign in, and go to your _dashboard_ and select **Developers → API Keys** from the menu. Make sure to have **"Viewing Test Data**" enabled to have Test mode enabled before your site go live.
 
-![Developr -> Api Keys (Stripe.com)](https://enupal.com/assets/docs/_lightboxdocs/02-stripe-payments.png)
+![Developer -> Api Keys (Stripe.com)](https://enupal.com/assets/docs/_lightboxdocs/02-stripe-payments.png)
 
 Please go ahead an open in a new tab the settings of the Stripe Payments plugin:  **Stripe Payments** **→ Settings** → **General**
 

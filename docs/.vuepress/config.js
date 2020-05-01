@@ -143,8 +143,42 @@ module.exports = {
           ]
         }
       ],
+      // Socializer
+      '/socializer/': [
+        ['../', '← All Plugins'],
+        {
+          title: 'Introduction',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        },
+        {
+          title: 'Getting started',
+          collapsable: false,
+          children: [
+            'getting-started/installation-setup',
+            'getting-started/requirements'
+          ]
+        },
+        {
+          title: 'Providers',
+          collapsable: false,
+          children: [
+            'providers/available-providers',
+            'providers/create-provider',
+            'providers/display-login-url'
+          ]
+        },
+        {
+          title: 'Tokens',
+          collapsable: false,
+          children: [
+            'tokens/retrieve-tokens'
+          ]
+        },
+      ],
       // More plugins here
-
       // fallback
       '/': [
         {
