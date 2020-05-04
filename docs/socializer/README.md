@@ -2,7 +2,7 @@
 
 Engage websites visitors and customers on a social level that starts off with social login or sign-un and you can extends to social sharing, users profiles, friends lists, activities streams, status updates and more! Socializer implements a number of open protocols (i.g, OAuth) to connect and communicate with various social networks APIs in a secure and standardised manner
 
-![Screenshot](https://enupal.com/assets/docs/stripe-payments-new-checkout.png)
+![Socializer - Provider index page](https://enupal.com/assets/docs/socializer-2.png)
 
 ### Features
 

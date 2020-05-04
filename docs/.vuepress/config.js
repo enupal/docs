@@ -167,6 +167,7 @@ module.exports = {
           children: [
             'providers/available-providers',
             'providers/create-provider',
+            'providers/user-field-mapping',
             'providers/display-login-url'
           ]
         },
