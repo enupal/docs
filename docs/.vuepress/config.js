@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'Enupal Docs for Craft 3',
+  title: 'Enupal Documentation',
   description: 'We love developing high quality and fully integrated plugins for Craft CMS.',
-  // theme: 'craftdocs',
+  //theme: 'craftdocs',
   base: '/docs/',
   ga: '',
   plugins: [
@@ -10,17 +10,18 @@ module.exports = {
         ga: ''
       }
     ],
-      [
-        'vuepress-plugin-zooming',
-        {
-          selector: '.content__default img',
-          delay: 1000,
-          options: {
-            bgColor: '#fbfcfd',
-            zIndex: 10000,
-          },
+    [
+      'vuepress-plugin-zooming',
+      {
+        selector: '.content__default img',
+        delay: 1000,
+        options: {
+          bgColor: '#fbfcfd',
+          zIndex: 10000,
         },
-      ]
+      },
+    ],
+    ['@vuepress/last-updated']
   ],
   markdown: {
     anchor: {level: [2, 3]},
@@ -194,12 +195,7 @@ module.exports = {
           collapsable: false,
           children: [
             ['stripe-payments/', 'Stripe Payments'],
-            ['socializer/', 'Socializer'],
-            ['enupal-backup/', 'Enupal Backup'],
-            ['translate/', 'Enupal Translate'],
-            ['enupal-snapshot/', 'Enupal Snapshot'],
-            ['paypal/', 'PayPal Buttons'],
-            ['enupal-slider/', 'Enupal Slider']
+            ['socializer/', 'Socializer']
           ]
         }
         // Add more to the main menu
