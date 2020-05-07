@@ -21,7 +21,47 @@ module.exports = {
         },
       },
     ],
-    ['@vuepress/last-updated']
+    ['@vuepress/last-updated'],
+    [
+      'vuepress-plugin-seo',
+      {
+        siteTitle: (_, $site) => $site.metadata && $site.metadata.siteName || $site.title,
+        title: $page => $page.title,
+        description: $page => $page.frontmatter.description,
+        image: ($page, $site) => $page.frontmatter.image && (($site.metadata && $site.metadata.siteUrl || '') + $page.frontmatter.image) || $site.metadata && $site.metadata.image,
+        url: (_, $site, path) => ($site.metadata && $site.metadata.siteUrl || '') + path,
+        type: _ => 'article',
+        twitterCard: _ => 'summary',
+        publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
+        modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+        customMeta: (add, context) => {
+          const {
+            $site, // Site configs provided by Vuepress
+            $page, // Page configs provided by Vuepress
+
+            // All the computed options from above:
+            siteTitle, title, description, author,
+            twitterCard, type, url, image, publishedAt, modifiedAt,
+          } = context;
+
+          add('twitter:creator', $site.metadata && $site.metadata.twitterHandle);
+          add('twitter:site', $site.metadata && $site.metadata.twitterHandle);
+
+          let canonical = $page.frontmatter.canonical || url;
+          add('canonical', canonical);
+        },
+      }
+    ],
+    [
+      'vuepress-plugin-sitemap',
+      {
+        hostname: 'https://enupal.com/docs',
+        changefreq: 'weekly',
+        exclude: [
+          '/404.html'
+        ]
+      }
+    ],
   ],
   markdown: {
     anchor: {level: [2, 3]},
@@ -29,7 +69,14 @@ module.exports = {
       md.use(require('./markdown/code'));
     }
   },
+  metadata: {
+    siteName: 'Enupal Plugin Documentation',
+    siteUrl: 'https://enupal.com/docs',
+    image: 'https://enupal.com/images/intense/enupal-icono.png',
+    twitterHandle: '@enupal',
+  },
   themeConfig: {
+    logo: "/icons/enupal-icono.png",
     docsRepo: 'enupal/docs',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -38,14 +85,25 @@ module.exports = {
       twig: 'Twig',
       php: 'PHP',
       js: 'Javascript',
-      craft2: 'Craft 2',
-      craft3: 'Craft 3'
+      plaintext: 'Plaintext'
     },
     algolia: {
       apiKey: '',
       indexName: ''
     },
     nav: [
+      {
+        text: '🛒 Buy License',
+        items: [
+          {text: 'Stripe Payments', link: 'https://enupal.com/craft-plugins/stripe-payments/pricing'},
+          {text: 'Socializer', link: 'https://enupal.com/craft-plugins/socializer/pricing'},
+          {text: 'Enupal Backup', link: 'https://enupal.com/craft-plugins/enupal-backup/pricing'},
+          {text: 'Enupal Translate', link: 'https://enupal.com/craft-plugins/translate/pricing'},
+          {text: 'Enupal Snapshot', link: 'https://enupal.com/craft-plugins/enupal-snapshot/pricing'},
+          {text: 'Enupal Slider', link: 'https://enupal.com/craft-plugins/enupal-slider/pricing'},
+          {text: 'PayPal Buttons', link: 'https://enupal.com/craft-plugins/paypal/pricing'},
+        ]
+      },
       {text: 'Back to Enupal →', link: 'https://enupal.com/'},
     ],
     sidebar: {
