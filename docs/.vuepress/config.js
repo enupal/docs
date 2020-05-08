@@ -238,6 +238,169 @@ module.exports = {
           ]
         },
       ],
+      // Backup
+      '/enupal-backup/': [
+        ['../', '← All Plugins'],
+        {
+          title: 'Introduction',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        },
+        {
+          title: 'Getting started',
+          collapsable: false,
+          children: [
+            'getting-started/installation',
+            'getting-started/requirements'
+          ]
+        },
+        {
+          title: 'Backup',
+          collapsable: false,
+          children: [
+            'backup/start-backup',
+            'backup/backup-files',
+            'backup/backup-statuses',
+            'backup/backups-amount'
+          ]
+        },
+        {
+          title: 'Download Backup Files',
+          collapsable: false,
+          children: [
+            'download-backup-files/download-file'
+          ]
+        },
+        {
+          title: 'Upload to Cloud',
+          collapsable: false,
+          children: [
+            'upload-to-cloud/upload-to-cloud-overview',
+            'upload-to-cloud/dropbox',
+            'upload-to-cloud/amazon-s3',
+            'upload-to-cloud/google-drive',
+            'upload-to-cloud/softlayer-object-storage',
+            'upload-to-cloud/ftp-sftp',
+          ]
+        },
+        {
+          title: 'Schedule',
+          collapsable: false,
+          children: [
+            'schedule/webhook'
+          ]
+        },
+        {
+          title: 'Email Notifications',
+          collapsable: false,
+          children: [
+            'email-notifications/receive-email-notifications'
+          ]
+        },
+        {
+          title: 'Advanced Settings',
+          collapsable: false,
+          children: [
+            'advanced-settings/paths',
+            'advanced-settings/encryption'
+          ]
+        },
+        {
+          title: 'Development',
+          collapsable: false,
+          children: [
+            'development/events'
+          ]
+        },
+      ],
+      // Translate
+      '/translate/': [
+        ['../', '← All Plugins'],
+        {
+          title: 'Introduction',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        },
+        {
+          title: 'Getting started',
+          collapsable: false,
+          children: [
+            'getting-started/installation-setup'
+          ]
+        },
+        {
+          title: 'Settings',
+          collapsable: false,
+          children: [
+            'settings/yandex',
+            'settings/google-translate',
+            'settings/google-translate-free'
+          ]
+        },
+        {
+          title: 'Translate',
+          collapsable: false,
+          children: [
+            'translate/overview',
+            'translate/manually',
+            'translate/bulk-google-translate',
+            'translate/bulk-yandex',
+          ]
+        }
+      ],
+      // Translate
+      '/enupal-snapshot/': [
+        ['../', '← All Plugins'],
+        {
+          title: 'Introduction',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        },
+        {
+          title: 'Getting started',
+          collapsable: false,
+          children: [
+            'getting-started/installation-setup',
+            'getting-started/requirements'
+          ]
+        },
+        {
+          title: 'Pdf Examples',
+          collapsable: false,
+          children: [
+            'pdf-examples/display-pdf-from-html',
+            'pdf-examples/generate-a-pdf-from-a-twig-template',
+            'pdf-examples/generate-a-pdf-from-a-url',
+            'pdf-examples/pdf-download-url',
+            'pdf-examples/pdf-lib-options',
+            'pdf-examples/footers-and-headers',
+            'pdf-examples/page-breaks',
+          ]
+        },
+        {
+          title: 'Image examples',
+          collapsable: false,
+          children: [
+            'image-examples/generate-an-image-from-html',
+            'image-examples/image-lib-options'
+          ]
+        },
+        {
+          title: 'Advanced',
+          collapsable: false,
+          children: [
+            'advanced/override-upload-asset',
+            'advanced/override-file',
+            'advanced/return-asset-model'
+          ]
+        }
+      ],
       // More plugins here
       // fallback
       '/': [
@@ -253,7 +416,10 @@ module.exports = {
           collapsable: false,
           children: [
             ['stripe-payments/', 'Stripe Payments'],
-            ['socializer/', 'Socializer']
+            ['socializer/', 'Socializer'],
+            ['enupal-backup/', 'Enupal Backup'],
+            ['translate/', 'Enupal Translate'],
+            ['enupal-snapshot/', 'Enupal Snapshot']
           ]
         }
         // Add more to the main menu
