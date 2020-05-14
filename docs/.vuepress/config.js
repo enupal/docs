@@ -55,7 +55,7 @@ module.exports = {
     [
       'vuepress-plugin-sitemap',
       {
-        hostname: 'https://enupal.com/docs',
+        hostname: 'https://docs.enupal.com',
         changefreq: 'weekly',
         exclude: [
           '/404.html'
