@@ -3,6 +3,7 @@
 /node_modules
 /vendor
 /web
+/dist
 composer.lock
 /.ddev
 /docs/.vuepress/dist
