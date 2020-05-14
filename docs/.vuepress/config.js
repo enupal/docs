@@ -2,7 +2,7 @@ module.exports = {
   title: 'Enupal Documentation',
   description: 'We love developing high quality and fully integrated plugins for Craft CMS.',
   //theme: 'craftdocs',
-  base: '/docs/',
+  base: '',
   ga: '',
   plugins: [
     [
@@ -71,7 +71,7 @@ module.exports = {
   },
   metadata: {
     siteName: 'Enupal Plugin Documentation',
-    siteUrl: 'https://enupal.com/docs',
+    siteUrl: 'https://docs.enupal.com',
     image: 'https://enupal.com/images/intense/enupal-icono.png',
     twitterHandle: '@enupal',
   },
