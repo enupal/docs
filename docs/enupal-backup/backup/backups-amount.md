@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: You can specify the number of recent backups to keep on your server. Older backups will be automatically deleted from your server with all the files when a new backup is created manually or scheduled.
+---
+
 # Backups Amount
 
 You can specify the number of recent backups to keep on your server. Older backups will be automatically deleted from your server with all the files when a new backup is created manually or scheduled.

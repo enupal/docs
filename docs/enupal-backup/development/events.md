@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Enupal Backup allows listening for events like beforeSendNotificationEmail
+---
+
 # Events
 
 Enupal Backup allows listening for events like `beforeSendNotificationEmail`

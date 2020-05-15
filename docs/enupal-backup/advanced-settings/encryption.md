@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Encrypted your backups is a good idea if you're uploading your backups to the cloud services. Enupal Backup will encrypt your data using openssl.
+---
+
 # Encryption
 
 Encrypted your backups is a good idea if you're uploading your backups to the cloud services. Enupal Backup will encrypt your data using openssl.
