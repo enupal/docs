@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: All coupons should be created on your Stripe Dashboard. Coupon codes added in your Stripe dashboard will be displayed on your Craft CMS dashboard
+---
+
 # Creating Coupons
 
 All coupons should be created on your Stripe Dashboard. Coupon codes added in your Stripe dashboard will be displayed on your Craft CMS dashboard: **Stripe Payments** → **Coupons**. Stripe allows percentage or amount off discounts.  

@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: The following example shows how to retrieve all the paid invoices attached to a subscription
+---
+
 # Get Paid Invoices
 
 The following example shows how to retrieve all the paid invoices attached to a subscription

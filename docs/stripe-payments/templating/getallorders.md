@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Get all Stripe Orders to handle it in your templates.
+---
+
 # getAllOrders
 
 Get all Stripe Orders to handle it in your templates.

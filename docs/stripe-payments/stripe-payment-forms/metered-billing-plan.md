@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Metered billing is useful in cases where you want to charge your customers a granular amount based on their consumption of your service during the billing cycle, instead of explicitly setting quantities.
+---
+
 # Metered billing plan
 
 Metered billing is useful in cases where you want to charge your customers a granular amount based on their consumption of your service during the billing cycle, instead of explicitly setting quantities. For example, if you are running an email SaaS business, you can track your customers’ API calls, then bill them for the total number used at the end of each month.

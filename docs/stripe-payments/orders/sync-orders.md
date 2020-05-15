@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: You can import One-Time and Subscriptions payments from Stripe, set a default status and filter by a date range.
+---
+
 # Sync Orders
 
 You can import One-Time and Subscriptions payments from Stripe, set a default status and filter by a date range. This process will create Orders in Stripe Payments if the Order does not exist in the CMS yet. You can choose to create the order only if the User exists in Craft CMS.  

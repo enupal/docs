@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: The template overrides feature is available since v1.3.0. Remember don't change the input names.
+---
+
 # Template Overrides
 
 The _**template overrides**_ feature is available since v1.3.0. Remember don't change the input names.

@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: In this example you’ll be creating a simple a one-time payment form with Stripe Payments
+---
+
 # One-Time Payment Form
 In this example you’ll be creating a simple a one-time payment form with Stripe Payments
 

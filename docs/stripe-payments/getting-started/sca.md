@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Strong Customer Authentication (SCA), a new rule coming into effect on September 14, 2019, as part of PSD2 regulation in Europe. Stripe has released a new version of Stripe Checkout with fully SCA support along with Apple Pay and Google Pay support.
+---
+
 # SCA
 
 Strong Customer Authentication ([SCA](https://stripe.com/docs/strong-customer-authentication)), a new rule coming into effect on September 14, 2019, as part of PSD2 regulation in Europe. Stripe has released a new version of [Stripe Checkout](https://stripe.com/en-at/payments/checkout) with fully SCA support along with [Apple Pay](https://stripe.com/en-at/apple-pay) and Google Pay support.

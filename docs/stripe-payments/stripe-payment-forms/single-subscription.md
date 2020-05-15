@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Allow your customers to sign up for recurring payments. Create your subscription plans within your Stripe Account and manage from Stripe Payments.
+---
+
 # Single Subscription
 
 Allow your customers to sign up for recurring payments. Create your subscription plans within your Stripe Account and manage from Stripe Payments. Create custom installment plans, apply initial setup fees and trial periods and much more!

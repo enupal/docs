@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Stripe Payments allows Apply Taxes to Subscriptions. One time payments are not supported by Stripe. 
+---
+
 # Taxes
 
 Stripe Payments allows Apply [Taxes to Subscriptions](http://stripe.com/docs/billing/subscriptions/taxes). One time payments are not supported by Stripe.

@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Follow the next instructions to be able to display Order PDF in templates, download Order PDF in the edit order page (Control panel) and attach the PDF order to the customer email notifications
+---
+
 # Order PDF
 
 Follow the next instructions to be able to display Order PDF in templates, download Order PDF in the edit order page (Control panel) and attach the PDF order to the customer email notifications
