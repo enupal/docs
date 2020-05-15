@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Socializer stores the accessToken retrieved by the providers after the user is logged-in.
+---
+
 # Access Token
 
 Socializer stores the `accessToken` retrieved by the providers after the user is logged-in. The following functions are
