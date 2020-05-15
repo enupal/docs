@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Please use cliOptions key to set any the of the image settings available
+---
+
 # Image Lib options
 
 Please use `cliOptions` key to set any the of the image settings available

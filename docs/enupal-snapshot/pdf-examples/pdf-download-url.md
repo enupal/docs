@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: To get the a download url of your Pdf file, please disable the option inline in the settings
+---
+
 # Pdf Download Url
 
 To get the a download url of your Pdf file, please disable the option inline in the settings:

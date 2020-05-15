@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: This example will output a Pdf in browser from a URL source.
+---
+
 # Generate a Pdf from a Url
 
 This example will output a Pdf in browser from a URL source.

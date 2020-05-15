@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Enupal Snapshot allows add custom html to handle footers and headers of the PDF file.
+---
+
 # Footers And Headers
 
 Enupal Snapshot allows add custom html to handle footers and headers of the PDF file.

@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: If the Override File setting is disabled will check if the file already exists to prevent file generation.
+---
+
 # Override File
 
 If the `Override File` setting is disabled will check if the file already exists to prevent file generation. You can also pass this setting in your templates before generating the file.

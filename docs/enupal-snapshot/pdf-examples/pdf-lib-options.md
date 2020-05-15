@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: To add any library option (listed below), please use the cliOptions key in the settings array.
+---
+
 # Pdf lib options
 
 To add any library option (listed below), please use the `cliOptions` key in the settings array.
