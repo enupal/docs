@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Easily create a payment confirmation email to your customers. 
+---
+
 # Customer
 
 Easily create a payment confirmation email to your customers. 

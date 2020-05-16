@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Get the subscription attached to an order to handle it in your templates.
+---
+
 # getSubscription
 
 Get the subscription attached to an order to handle it in your templates. 

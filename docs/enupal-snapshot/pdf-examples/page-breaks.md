@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Let's insert a page break in HTML so Enupal Snapshot parses it or split a PDF in different pages.
+---
+
 # Page Breaks
 
 Let's insert a page break in HTML so Enupal Snapshot parses it or split a PDF in different pages.

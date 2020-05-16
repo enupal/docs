@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: On your templates you can display the login / signup URL easily passing the handle of your provider
+---
+
 # Display login URL
 
 On your templates you can display the login / signup URL easily passing the handle of your provider:

@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: When a user is registered, you can populate the following data into any Plain Tex or Dropdown field of your User layout.
+---
+
 # User Field Mapping
 
 When a user is registered, you can populate the following data into any `Plain Tex` or `Dropdown` field of your User layout.

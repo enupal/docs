@@ -3,7 +3,10 @@ module.exports = {
   description: 'We love developing high quality and fully integrated plugins for Craft CMS.',
   //theme: 'craftdocs',
   base: '',
-  ga: '',
+  head: [
+    ['link', {rel: 'icon', href: '/icons/favicon.ico'}],
+    ['meta', {name: 'theme-color', content: '#484539'}],
+  ],
   plugins: [
     [
       '@vuepress/google-analytics', {
@@ -72,7 +75,7 @@ module.exports = {
   metadata: {
     siteName: 'Enupal Plugin Documentation',
     siteUrl: 'https://docs.enupal.com',
-    image: 'https://enupal.com/images/intense/enupal-icono.png',
+    image: 'https://enupal.com/assets/docs/enupal-logo-black.png',
     twitterHandle: '@enupal',
   },
   themeConfig: {

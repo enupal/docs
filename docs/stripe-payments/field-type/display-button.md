@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: The Stripe Payment Forms Field returns a  Stripe Payment Form element with all your form info. You can display your Stripe Form using the paymentForm() method
+---
+
 # Display Button
 
 The `Stripe Payment Forms` Field returns a  Stripe Payment Form element with all your form info. You can display your Stripe Form using the `paymentForm()` method

@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: If there is a payment error, your page will reload with a variable that uses the same name as your payment form handle.
+---
+
 # Display Errors
 
 If there is a payment error, your page will reload with a variable that uses the same name as your payment form handle. If you form handle is paymentForm your errors will be available to you via paymentForm.getErrors().

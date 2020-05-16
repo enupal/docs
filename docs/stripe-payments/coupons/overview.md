@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Coupon codes added in your Stripe dashboard will be displayed on your Craft CMS dashboard on Stripe Payments → Coupons. Stripe allows percentage or amount off discounts.
+---
+
 # Overview
 
 Coupon codes added in your Stripe dashboard will be displayed on your Craft CMS dashboard on **Stripe Payments** → **Coupons**. Stripe allows percentage or amount off discounts.

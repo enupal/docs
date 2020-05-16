@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Now that you have installed the Stripe Payments plugin from the Craft CMS plugin store, you can now connect it to your Stripe account.
+---
+
 # Saving your Stripe API Keys
 
 Now that you have installed the Stripe Payments plugin from the Craft CMS plugin store, you can now connect it to your Stripe account. You'll first need to retrieve your Stripe API, and then enter these credentials into the Stripe Payments Settings page.

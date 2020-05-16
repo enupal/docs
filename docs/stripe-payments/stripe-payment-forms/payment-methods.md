@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Stripe Payments is powered by Stripe Checkout and Stripe Elements. Make sure to understand the differences between these two methods and choose one to display your payment form!
+---
+
 # Payment Methods
 
 Stripe Payments is powered by [Stripe Checkout](https://stripe.com/checkout) and [Stripe Elements](https://stripe.com/elements). Make sure to understand the differences between these two methods and choose one to display your payment form!

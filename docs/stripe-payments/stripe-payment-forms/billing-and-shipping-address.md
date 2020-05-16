@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Let's enabled Shipping and Billing address in our Stripe Checkout Form. You can also validate the Zip code.
+---
+
 # Billing and Shipping Address
 
 Let's enabled Shipping and Billing address in our Stripe Checkout Form. You can also validate the Zip code.

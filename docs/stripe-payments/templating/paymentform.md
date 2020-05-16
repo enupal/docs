@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: The paymentForm tag will Output your Stripe Form with a single line of code. Pass the handle of your Stripe Payment Form as parameter
+---
+
 # paymentForm
 
 The `paymentForm` tag will Output your Stripe Form with a single line of code. Pass the handle of your Stripe Payment Form as parameter:

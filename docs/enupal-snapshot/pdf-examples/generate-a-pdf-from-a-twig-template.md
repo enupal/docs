@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: This example will output a Pdf in browser from a Twig Template source.
+---
+
 # Generate a Pdf from a twig template
 
 This example will output a Pdf in browser from a Twig Template source.

@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: You can configure a Cron Job to call Enupal Backup and automatically create a backup each night, rather than doing a manual Backup every time.
+---
+
 # Webhook
 
 You can configure a [Cron Job](https://de.wikipedia.org/wiki/Cron) to call Enupal Backup and automatically create a backup each night, rather than doing a manual Backup every time.

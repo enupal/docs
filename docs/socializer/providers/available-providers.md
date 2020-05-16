@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: The table below lists the social networks and identity providers currently supported by Socializer and outlines their specs
+---
+
 # Available Providers
 
 The table below lists the social networks and identity providers currently supported by Socializer and outlines their specs

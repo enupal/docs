@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Save additional info to the Order as Metadata in Stripe. The following custom fields are available
+---
+
 # Form Builder - Metadata Fields
 
 Save additional info to the Order as Metadata in Stripe. The following custom fields are available:

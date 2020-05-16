@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: The paymentForms tag returns a  Stripe Payment Form element query with all your form info. You can display your Stripe Form using the paymentForm() method
+---
+
 # paymentForms
 
 The `paymentForms` tag returns a  Stripe Payment Form element query with all your form info. You can display your Stripe Form using the `paymentForm()` method

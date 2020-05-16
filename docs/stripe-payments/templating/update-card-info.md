@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Use the following steps to create a Checkout page that collects your customer’s payment details and returns a Payment Method
+---
+
 # Update Card Info
 
 Use the following steps to create a Checkout page that collects your customer’s payment details and returns a Payment Method (if [SCA](https://enupal.com/craft-plugins/stripe-payments/docs/getting-started/sca) is enabled) or a token (if [SCA](https://enupal.com/craft-plugins/stripe-payments/docs/getting-started/sca) is disabled). Then we'll use the Stripe REST APIs to update the payment method used for future invoices.

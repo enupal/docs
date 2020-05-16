@@ -1,8 +1,11 @@
+---
+date: 2020-05-14
+description: Learn how to change a customer’s subscription by upgrading or downgrading their plan
+---
+
 # Update subscription plan
 
-Learn how to change a customer’s subscription by upgrading or downgrading their plan. This guide is based on the official [stripe docs.  
-  
-](https://stripe.com/docs/billing/subscriptions/upgrading-downgrading)The following fields are required when the form is submitted:  
+Learn how to change a customer’s subscription by upgrading or downgrading their plan. This guide is based on the official [stripe docs.](https://stripe.com/docs/billing/subscriptions/upgrading-downgrading)The following fields are required when the form is submitted:  
 
 *   subscriptionId
 *   planId

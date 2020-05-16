@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Engage websites visitors and customers on a social level that starts off with social login or sign-up and you can extends to social sharing, users profiles, friends lists, activities streams, status updates and more!
+---
+
 # Socializer
 
 Engage websites visitors and customers on a social level that starts off with social login or sign-up and you can extends to social sharing, users profiles, friends lists, activities streams, status updates and more! Socializer implements a number of open protocols (i.g, OAuth) to connect and communicate with various social networks APIs in a secure and standardised manner

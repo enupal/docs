@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Enupal Backup allows setup an email notification for when the Backup process has finished, it will send a report with useful info about your Backup.
+---
+
 # Receive Email Notifications
 
 Enupal Backup allows setup an email notification for when the Backup process has finished, it will send a report with useful info about your Backup.

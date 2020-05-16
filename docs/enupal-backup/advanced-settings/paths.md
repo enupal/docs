@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Enupal Backup allows setup the different binary files needed to run a Backup, this is great for when the server is running on Windows.
+---
+
 # Paths
 
 Enupal Backup allows setup the different binary files needed to run a Backup, this is great for when the server is running on Windows.

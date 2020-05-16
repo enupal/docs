@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Enupal Backup have four statuses  during the backup process. The statuses are
+---
+
 # Backup statuses
 
 Enupal Backup have four statuses  during the backup process. The statuses are:

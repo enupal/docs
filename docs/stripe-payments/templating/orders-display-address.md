@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: If the Shipping or Billing address is enabled we could display the Address associated with our Order in the templates in two ways
+---
+
 # Orders - Display Address
 
 If the [Shipping or Billing](https://enupal.com/craft-plugins/stripe-payments/docs/stripe-payment-forms/billing-and-shipping-address#entry:4358:url) address is enabled we could display the Address associated with our Order in the templates in two ways:

@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Easily create a payment confirmation email to the admins
+---
+
 # Admin
 
 Easily create a payment confirmation email to the admins

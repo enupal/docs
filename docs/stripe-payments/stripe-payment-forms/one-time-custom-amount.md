@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: In this example you’ll be creating a simple a one-time custom payment form with Stripe Payments. This use case is great for Donations.
+---
+
 # Custom Amount - (Donations)
 
 In this example you’ll be creating a simple a one-time custom payment form with Stripe Payments. This use case is great for Donations.

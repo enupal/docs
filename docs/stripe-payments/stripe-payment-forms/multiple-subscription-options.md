@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Let your customers choose the plans to sign up for recurring payments. Select the Stripe plans easily with a drag & drop UI, reorder the plans and make a default plan to display in a Dropdown Select or Radio Buttons.
+---
+
 # Multiple Subscription Options
 
 Let your customers choose the plans to sign up for recurring payments. Select the Stripe plans easily with a drag & drop UI, reorder the plans and make a default plan to display in a Dropdown Select or Radio Buttons.

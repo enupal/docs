@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Stripe Payments allows listen for events like afterOrderComplete and beforeSendNotificationEmail
+---
+
 # Events
 
 Stripe Payments allows listen for events like: afterOrderComplete and beforeSendNotificationEmail

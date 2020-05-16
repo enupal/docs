@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Stripe can send webhook events that notify your application any time an event happens on your account. This is especially useful for events—like disputed charges and many recurring billing events—that are not triggered by a direct API request
+---
+
 # Webhook
 
 Stripe can send [webhook events](https://stripe.com/docs/webhooks) that notify your application any time an event happens on your account. This is especially useful for events—like disputed charges and many recurring billing events—that are not triggered by a direct API request. This mechanism is also useful for services that are not directly responsible for making an API request, but still, need to know the response from that request. 
