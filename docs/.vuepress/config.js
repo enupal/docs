@@ -419,7 +419,7 @@ module.exports = {
           collapsable: false,
           children: [
             ['stripe-payments/', 'Stripe Payments'],
-            //['socializer/', 'Socializer'],
+            ['socializer/', 'Socializer'],
             ['enupal-backup/', 'Enupal Backup'],
             ['translate/', 'Enupal Translate'],
             ['enupal-snapshot/', 'Enupal Snapshot']
