@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Enupal Translate allows translating your templates or plugins manually. Add your translations under the 'Translation' column and Save your translations
+---
+
 # Manually
 
 Enupal Translate allows translating your templates or plugins manually. Add your translations under the 'Translation' column and Save your translations!

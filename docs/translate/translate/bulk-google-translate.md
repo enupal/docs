@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: After Enable any of the Google Translate Api's Free or Google cloud please follow the next instructions for bulk translations
+---
+
 # Bulk - Google Translate
 
 After Enable any of the Google Translate Api's ([Free](https://enupal.com/craft-plugins/translate/docs/settings/google-translate-free#entry:2962:url) or [Google cloud](https://enupal.com/craft-plugins/translate/docs/settings/google-translate#entry:2973:url)) please follow the next instructions for bulk translations:

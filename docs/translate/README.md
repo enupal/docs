@@ -1,3 +1,9 @@
+---
+date: 2020-05-14
+description: Translate your website templates and plugins into multiple languages. Bulk translation with Google Translate or Yandex.
+---
+
+
 # Enupal Translate
 
 <p align="center">
