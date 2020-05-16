@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: After Enable the Yandex Api (2.000.000 words Free per month), please follow the next instructions for bulk translations
+---
+
 # Bulk - Yandex
 
 After Enable the [Yandex](https://enupal.com/craft-plugins/translate/docs/settings/yandex#entry:2966:url) Api (2.000.000 words Free per month), please follow the next instructions for bulk translations:

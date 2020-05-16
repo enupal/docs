@@ -75,7 +75,7 @@ module.exports = {
   metadata: {
     siteName: 'Enupal Plugin Documentation',
     siteUrl: 'https://docs.enupal.com',
-    image: 'https://enupal.com/assets/docs/enupal-logo-black.png',
+    image: 'https://enupal.com/assets/docs/enupal-social.png',
     twitterHandle: '@enupal',
   },
   themeConfig: {

@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: In order to translate your site templates with Enupal Translate, you may need to follow a few steps before having everything ready to go.
+---
+
 # Overview
 
 In order to translate your site templates with Enupal Translate, you may need to follow a few steps before having everything ready to go.

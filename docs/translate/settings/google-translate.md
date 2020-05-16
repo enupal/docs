@@ -1,3 +1,8 @@
+---
+date: 2020-05-14
+description: Dynamically translate between thousands of available language pairs
+---
+
 # Google Translate
 
 Dynamically translate between thousands of available language pairs
