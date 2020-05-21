@@ -15,14 +15,6 @@ Some useful commands while working with the docs:
 | npm install | Get everything working |
 | npm run docs:dev | Spins up a VuePress dev server so you can update Markdown and see those updates in real time in your browser (without generating a static site) |
 | npm&nbsp;run&nbsp;docs:build | Generates static site (no need to run this if submitting pull requests, this is handled during deployment) |
-
-## Metadata
-
-To generate metadata using the `php ./src/optimizeMetadata.php` script you will need to install the following package:
-
-```
-composer require kub-at/php-simple-html-dom-parser
-```
 	
 ## Contributions
 
