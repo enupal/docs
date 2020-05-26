@@ -1,3 +1,5 @@
 RewriteEngine On
 RewriteCond %{ENV:HTTPS} !on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+ErrorDocument 404 https://docs.enupal.com/404.html
