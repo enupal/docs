@@ -91,8 +91,8 @@ module.exports = {
       plaintext: 'Plaintext'
     },
     algolia: {
-      apiKey: '',
-      indexName: ''
+      apiKey: '5ec8071090d0ec6ca6a98ff2a3d0b408',
+      indexName: 'enupal'
     },
     nav: [
       {

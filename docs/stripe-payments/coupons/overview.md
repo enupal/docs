@@ -21,6 +21,7 @@ You can enable Coupons functionality before display the payment form in your tem
 *   `displayTotal` (true or false) If enabled will update the total amount
 *   `totalAmountLabel` (string) Message displayed next to the total amount
 *   `removeCouponLabel` (string) Message displayed for removing a valid coupon
+*   `checkCouponLabel` (string) Message displayed for checking coupon
 
 ```twig
 {% set options = {
@@ -31,7 +32,8 @@ You can enable Coupons functionality before display the payment form in your tem
         'errorMessage': 'Invalid Coupon',
         'displayTotal': true,
         'totalAmountLabel': 'Total',
-        'removeCouponLabel': 'Remove Coupon'
+        'removeCouponLabel': 'Remove Coupon',
+        'checkCouponLabel': 'Check Coupon'
     }
 } %}
 
