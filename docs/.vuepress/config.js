@@ -240,6 +240,13 @@ module.exports = {
             'tokens/retrieve-tokens'
           ]
         },
+        {
+          title: 'Development',
+          collapsable: false,
+          children: [
+            'development/events'
+          ]
+        },
       ],
       // Backup
       '/enupal-backup/': [
