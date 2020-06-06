@@ -18,11 +18,27 @@ Additionally, you can pass the following options to the _**paymentForm**_ variab
 *   quantity
 *   amount
 *   calculateFinalAmount
+*   itemName
+*   itemDescription
+*   checkoutSuccessUrl
+*   checkoutCancelUrl
 
 The **_calculateFinalAmount_** setting is enabled by default so if you pass false, we don't calculate **__quantity \* amount__** as the final amount, you can apply any discount to the amount that you want to charge and will override the amount saved in your Stripe Payment Form
 
+The `itemName` and `itemDescription` are useful if you're using Stripe Checkout
+
+The `checkoutSuccessUrl` and `checkoutCancelUrl` options are for when SCA is enabled and using with Stripe Checkout.
+
 ```twig
-{% set options = {amount: 99.99, quantity: 2, calculateFinalAmount: false} %}
+{% set options = {
+    amount: 99.99, 
+    quantity: 2, 
+    calculateFinalAmount: false,
+    itemName : 'Test Name',
+    itemDescription : 'Test Description',
+    checkoutSuccessUrl: '/thank-you?number={number}',
+    checkoutCancelUrl: '/uh-oh'
+} %}
 
 {{ craft.enupalstripe.paymentForm('handle', options) }}
 ```
