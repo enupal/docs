@@ -13,7 +13,7 @@ Before you begin,
 *   Please make sure you have enough disk space on your server before proceeding.
 *   Could be a good idea take a look at the general settings and setup a proper **amount of backups to keep locally**.
 
-Enupal Backup will enable a Webhook URL in order to be called from the Cron Job, follow the next steps to enable this feature:
+Enupal Backup will enable a Webhook URL in order to be called from the Cron Job, this URL will add the backup to the Craft queue, the second Cron Job will execute the queue so the backup can be processed 1 minute later. Follow the next steps to enable this feature:
 
 1.  Click on "Settings"
 2.  Click on "Schedule"
@@ -21,7 +21,7 @@ Enupal Backup will enable a Webhook URL in order to be called from the Cron Job,
 4.  Add a "Secret Key" you could automatically generate one on clicking the "Generate" link
 5.  Save the Settings
 6.  Copy the Cron Example 
-7.  Add the line copied to your crontab.
+7.  Add the two lines copied to your crontab.
 
 ## Alternatives to Cron
 
@@ -32,8 +32,10 @@ Some hosting companies don’t allow access to cron, but there are websites offe
 *   [OnlineCronJobs](http://www.onlinecronjobs.com/)
 *   [EasyCron](https://www.easycron.com/)
 
+However, this approach will only help for the first Cron Job (call the Webhook URL), we recommend finding a hosting that allows run Cron Jobs on your own.
+
 ::: tip
- Our example will execute your backup every morning at 3:10 AM.
+ Our example will execute your backup every morning at 3:11 AM.
 :::
 
-![Schedule Backup](https://enupal.com/assets/docs/12-enupal-backup-docs.png)
+![Schedule Backup](https://enupal.com/assets/docs/enupal-backup-schedule.png)
