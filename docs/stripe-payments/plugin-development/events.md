@@ -54,7 +54,10 @@ class YourPlugin extends Plugin
               $message = $e->message;
               // admin|customer        
               $type = $e->type;      
-              $order= $e->order;                
+              $order= $e->order;
+              $fields= $order->getFormFields();
+              // Retrieve any form field
+              $myField = $fields['handle'] ?? null;
              // Do something
          });
         ...
