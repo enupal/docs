@@ -37,7 +37,8 @@ $ pwd
 If you're on Ubuntu 18.04 you may need to run the next command:
 
 ```plaintext
-$ sudo apt install libssl1.0-dev
+$ sudo apt-get install libssl1.0-dev
+$ sudo apt-get install libxrender1
 ```
 
 ## Install wkhtmltopdf on MacOS High Sierra 10.13.6
