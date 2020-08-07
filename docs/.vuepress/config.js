@@ -165,6 +165,16 @@ module.exports = {
           ]
         },
         {
+          title: 'Connect',
+          collapsable: false,
+          children: [
+            'connect/overview',
+            'connect/vendors',
+            'connect/connects',
+            'connect/commissions'
+          ]
+        },
+        {
           title: 'Coupons',
           collapsable: false,
           children: [
