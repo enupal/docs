@@ -13,7 +13,7 @@ description: Stripe Connect lets you facilitate payments on your software platfo
 
 Stripe Payments uses the [Separate charges and transfers](https://stripe.com/docs/connect/charges-transfers) approach to Pay out vendors quickly and reduce operational overhead with Connect’s global routing and payout engine. You can split funds between multiple vendors, instantly route payments across borders, and specify your earnings on each transaction.
 
-![](https://enupal.com/assets/docs/enupal-stripe-connect-2.svg)
+![Separate Charges](https://enupal.com/assets/docs/enupal-stripe-connect-2.svg)
 
 When the Stripe Connect setting is enabled, three new links will be available in the main sidebar menu:
 

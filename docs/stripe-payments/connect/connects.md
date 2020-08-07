@@ -17,7 +17,7 @@ A connect can be created from two scenarios:
 
 1.- From the CP. Under Stripe Payments → Connect on the index page click on "Create Connect"
 
-![](https://enupal.com/assets/docs/enupal-stripe-connect-6.png)
+![Connect Index](https://enupal.com/assets/docs/enupal-stripe-connect-6.png)
 
 2.- From the Front-end, from our example templates go to `marketplace/account` if the user does not have a connect yet, it will automatically created when the Vendor creates a Product, clicking on "New Product"
  
@@ -26,4 +26,4 @@ A connect can be created from two scenarios:
 The `allProducts` connect setting will transfer this vendorRate when any product is sell. If this setting is enabled will convert this vendor into `superVendor` that means that could update any product from the front-end.
 
 
-![](https://enupal.com/assets/docs/enupal-stripe-connect-7.png)
+![Edit Connect](https://enupal.com/assets/docs/enupal-stripe-connect-7.png)

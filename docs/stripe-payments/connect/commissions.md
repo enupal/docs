@@ -9,7 +9,7 @@ Commissions is the place where you can track all the transfers associated to eac
 
 Under your Craft CMS dashboard please go Stripe Payments → Commissions 
 
-![](https://enupal.com/assets/docs/enupal-stripe-connect-9.png)
+![Index Commissions](https://enupal.com/assets/docs/enupal-stripe-connect-9.png)
  
 ## Pending Commissions
 
@@ -17,6 +17,6 @@ Pending commissions are created if the Vendor has `paymentType` as `Manually` or
 
 You can Pay manually the Commission, editing a commission and clicking the `Pay` button next to the total
 
-![](https://enupal.com/assets/docs/enupal-stripe-connect-8.png)
+![Manage Commission](https://enupal.com/assets/docs/enupal-stripe-connect-8.png)
 
 
