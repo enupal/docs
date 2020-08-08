@@ -157,6 +157,7 @@ module.exports = {
             'templating/orders-display-form-fields-values-metadata',
             'templating/orders-display-address',
             'templating/get-subscription',
+            'templating/update-billing',
             'templating/cancel-subscriptions',
             'templating/display-errors',
             'templating/update-card-info',

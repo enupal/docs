@@ -6,6 +6,9 @@ description: Follow the next example to allow users to cancel subscriptions via 
 
 Follow the next example to allow users to cancel subscriptions via front-end. If you want to cancel the subscription at the end of the period please go to **Stripe Payments** → **Settings** → **Defaults** and enable the "Cancel subscription at period end" lightswitch. However you could override the default setting passing a hidden value with next name: `cancelAtPeriodEnd`
 
+::: tip
+We recommend to use the [Stripe Customer Portal feature](https://docs.enupal.com/stripe-payments/templating/update-billing.html)
+:::
 
 ```twig
 {% for order in craft.enupalStripe.getSubscriptionsByUser(currentUser.id) %}

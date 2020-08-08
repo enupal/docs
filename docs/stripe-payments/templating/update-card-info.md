@@ -7,6 +7,10 @@ description: Use the following steps to create a Checkout page that collects you
 
 Use the following steps to create a Checkout page that collects your customer’s payment details and returns a Payment Method (if [SCA](https://enupal.com/craft-plugins/stripe-payments/docs/getting-started/sca) is enabled) or a token (if [SCA](https://enupal.com/craft-plugins/stripe-payments/docs/getting-started/sca) is disabled). Then we'll use the Stripe REST APIs to update the payment method used for future invoices.
 
+::: tip
+We recommend to use the [Stripe Customer Portal feature](https://docs.enupal.com/stripe-payments/templating/update-billing.html)
+:::
+
 ## If SCA is enabled
 
 If SCA is enabled in your Stripe Payment settings, create a template in the front-end with the following code to allow users to update their card info via the new Stripe Checkout.

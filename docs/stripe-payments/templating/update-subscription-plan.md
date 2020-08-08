@@ -10,6 +10,10 @@ Learn how to change a customer’s subscription by upgrading or downgrading thei
 *   subscriptionId
 *   planId
 
+::: tip
+We recommend to use the [Stripe Customer Portal feature](https://docs.enupal.com/stripe-payments/templating/update-billing.html)
+:::
+
 ## Basic - If you already know the plan id
 
 For example, if you already know the plan id (from your Stripe account), you can create a simple form to update the plan of that specific subscription.  

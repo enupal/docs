@@ -7,6 +7,10 @@ description: The following example shows how to retrieve all the paid invoices a
 
 The following example shows how to retrieve all the paid invoices attached to a subscription
 
+::: tip
+We recommend to use the [Stripe Customer Portal feature](https://docs.enupal.com/stripe-payments/templating/update-billing.html)
+:::
+
 ## getPaidInvoices()
 
 Use the getPaidInvoices() method available in the subscription model, it will return an Invoice Stripe object ([check all available properties](https://stripe.com/docs/api/invoices/object))

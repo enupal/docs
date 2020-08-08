@@ -19,10 +19,14 @@ Vendors can be created from two ways:
 
 ![Edit Vendor](https://enupal.com/assets/docs/enupal-stripe-connect-4.png)
 
+## Sample Templates
+
+We have created this basic [sample templates](https://github.com/enupal/stripe/tree/master/templates), these are useful to handle vendors on the front-end to connect to Stripe and to manage products. Templates for Craft Commerce _comming soon_
+
 ## How to associate a Stripe Account to a vendor?
 
 This needs to be done via the front-end, each vendor needs to be logged in with their Craft User.
-Please take as an example our marketplace templates, in the Front-end a logged in vendor could go to `/marketplace/account` the vendor needs to click on the `Connect with Stripe` button and will be redirected to the Stripe Onboard process and finally will be redirected with a valid Stripe Id that will be associated to the vendor.
+Please take as an example our marketplace templates (link above), in the Front-end a logged in vendor could go to `/marketplace/account` the vendor needs to click on the `Connect with Stripe` button and will be redirected to the Stripe Onboard process and finally will be redirected with a valid Stripe Id that will be associated to the vendor.
 
 ![Front-end Vendor Account](https://enupal.com/assets/docs/enupal-stripe-connect-5.png)
 
