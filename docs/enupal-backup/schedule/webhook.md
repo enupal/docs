@@ -23,6 +23,8 @@ Enupal Backup will enable a Webhook URL in order to be called from the Cron Job,
 6.  Copy the Cron Example 
 7.  Add the two lines copied to your crontab.
 
+If for some reason you can't add the second cronjob line, we recommend to install the [Async plugin](https://plugins.craftcms.com/async-queue) as will executes the the Backup once is added to the queue. 
+
 ## Alternatives to Cron
 
 Some hosting companies don’t allow access to cron, but there are websites offering alternative ways of scheduling jobs (free or paid-for). Here are some examples:
