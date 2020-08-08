@@ -36,7 +36,9 @@ Basically a **Vendor** is associated to a Craft User and to a Stripe Account, on
  2.- On  your Craft CMS dashboard please go to Stripe Payments → Settings → General and save your `Client Id` 
  To get your Client ID please go the `connect settings` link and add the Redirect URL displayed
  
- That's it! you're ready to start using Stripe Connect on Stripe Payments. 
+::: tip
+We recommend save your client id along with your Stripe API keys under teh config file using `testClientId` or `liveClientId` depending if testMode is enabled. Please follow our docs [here](https://docs.enupal.com/stripe-payments/getting-started/saving-your-stripe-api-keys.html#saving-the-stripe-api-keys-via-config-file)
+:::
  
  
  
