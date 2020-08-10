@@ -37,3 +37,9 @@ Please take as an example our marketplace templates (link above), in the Front-e
 ![Stripe Onboard 2](https://enupal.com/assets/docs/enupal-stripe-connect-12.png)
 
 ![Front-end Vendor Account 2](https://enupal.com/assets/docs/enupal-stripe-connect-13.png)
+
+## Vendor Notification email
+
+To add an email notification each time a vendor commission is paid please go to Stripe Payments → Settings -> Vendor Notification 
+
+Please find our default email template [here](https://github.com/enupal/stripe/blob/master/src/templates/_emails/vendor.twig)
