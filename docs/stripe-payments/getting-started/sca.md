@@ -25,7 +25,7 @@ The Stripe team is working hard to add more features to the new Stripe Checkout,
 |Donations (custom amounts)|supported|
 |Google Pay|supported|
 |Shipping & Billing Address|supported|
-|Coupons (Recurring-Payments)|not  supported|
+|Coupons (Recurring-Payments)|supported|
 |More payment methods: Sofort, etc|not supported|
 |Taxes (subscriptions)|not supported (coming soon)|
 |Plans with tired billing (subscriptions)|not supported|

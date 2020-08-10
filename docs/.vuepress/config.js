@@ -180,7 +180,8 @@ module.exports = {
           collapsable: false,
           children: [
             'coupons/overview',
-            'coupons/create-coupon'
+            'coupons/create-coupon',
+            'coupons/subscription-coupons'
           ]
         },
         {
