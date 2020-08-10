@@ -70,7 +70,7 @@ Additionally, you can pass _removeDefaultItem_ via options to remove the item 
         ] 
     } 
 %}
-{{ craft.enupalStripe.paymentForm('paymentForm', options) }}
+{{ craft.enupalStripe.paymentForm('handle', options) }}
 
 ```
 
@@ -87,7 +87,7 @@ You can pass the following options when you're creating [Custom Plan Amounts](ht
     "customTrialPeriodDays" : 19
     } 
 %}
-{{ craft.enupalstripe.paymentForm('simple', options) }}
+{{ craft.enupalstripe.paymentForm('handle', options) }}
 ```
 
 ## Tiered Plans
@@ -96,4 +96,16 @@ For plans with [Tiered Pricing](https://stripe.com/docs/billing/subscriptions/ti
 
 ```twig
 {{ craft.enupalstripe.paymentForm('handle', {quantity: 20}) }}
+```
+
+## Promotional codes (Subscriptions)
+
+For subscriptions forms, you can enabled [Promotional codes](https://stripe.com/docs/billing/subscriptions/discounts), you need to pass the **allowPromotionCodes** setting to enabled this feature. This is only available on the New Stripe Checkout (SCA enabled)
+
+```twig
+{% set options = { 
+    "allowPromotionCodes" : true
+    } 
+%}
+{{ craft.enupalstripe.paymentForm('handle', options) }}
 ```

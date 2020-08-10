@@ -157,11 +157,22 @@ module.exports = {
             'templating/orders-display-form-fields-values-metadata',
             'templating/orders-display-address',
             'templating/get-subscription',
+            'templating/update-billing',
             'templating/cancel-subscriptions',
             'templating/display-errors',
             'templating/update-card-info',
             'templating/update-subscription-plan',
             'templating/get-all-paid-invoices-from-subscription'
+          ]
+        },
+        {
+          title: 'Connect',
+          collapsable: false,
+          children: [
+            'connect/overview',
+            'connect/vendors',
+            'connect/connects',
+            'connect/commissions'
           ]
         },
         {

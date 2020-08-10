@@ -42,7 +42,9 @@ return [
         'stripePayments' => [
             'testPublishableKey' => getenv('YOUR_TEST_PUBLISHABLE_KEY'),
             'testSecretKey' =>  getenv('YOUR_TEST_SECRET_KEY'),
-            'testMode' => 1
+            'testMode' => 1,
+            // This setting is only needed is Stripe Connect is enabled 
+            'testClientId' => getenv('YOUR_TEST_CLIENT_ID'),
         ]
     ],
 
@@ -51,7 +53,9 @@ return [
         'stripePayments' => [
             'livePublishableKey' => getenv('YOUR_LIVE_PUBLISHABLE_KEY'),
             'liveSecretKey' => getenv('YOUR_LIVE_SECRET_KEY'),
-            'testMode' => 0
+            'testMode' => 0,
+            // This setting is only needed is Stripe Connect is enabled 
+            'liveClientId' => getenv('YOUR_LIVE_CLIENT_ID'),
         ]    
     ],
 ];

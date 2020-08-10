@@ -7,7 +7,7 @@ description: We love developing high quality and fully integrated plugins for Cr
 
 We love developing high quality and fully integrated plugins for Craft CMS.
 
-Developed with 💜 for Craft CMS
+Developed with 💚  for Craft CMS
 
 - [Stripe Payments](/stripe-payments)
 - [Socializer](/socializer)

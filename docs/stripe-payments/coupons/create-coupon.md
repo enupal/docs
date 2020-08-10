@@ -1,24 +1,41 @@
 ---
-date: 2020-05-14
-description: All coupons should be created on your Stripe Dashboard. Coupon codes added in your Stripe dashboard will be displayed on your Craft CMS dashboard
+date: 2020-08-03
+description: Coupon codes added in your Stripe dashboard will be displayed on your Craft CMS dashboard on Stripe Payments → Coupons. Stripe allows percentage or amount off discounts.
 ---
 
-# Creating Coupons
+# Overview
 
-All coupons should be created on your Stripe Dashboard. Coupon codes added in your Stripe dashboard will be displayed on your Craft CMS dashboard: **Stripe Payments** → **Coupons**. Stripe allows percentage or amount off discounts.  
-  
-To add a coupon go to **Billing** → **Coupons** on your stripe dashboard, click the New button at the top right and add the Name and the ID.
+Coupon codes added in your Stripe dashboard will be displayed on your Craft CMS dashboard on **Stripe Payments** → **Coupons**. Stripe allows percentage or amount off discounts.
 
-The **ID** is the **coupon code** and is what the customer will have to enter exactly to apply the coupon to their payment(s) or subscription.  
+Although Stripe intends for use with subscriptions, you can use coupon codes to let customers apply a discount in your one-time payment forms as well. There are some scenarios where Coupons may not work properly:
 
-Next, you can specify a **Percentage** or **Fixed amount** discount type and value.
+*   Apply coupons for recurring payments on custom-amounts (e.g donations forms) are not supported yet.
+*   For one-time payment forms, %100 discounts are not allowed as Stripe needs a minimum charge amount.
 
-![Create Coupon](https://enupal.com/assets/docs/stripe-payments-coupons-2.png)
+You can enable Coupons functionality before display the payment form in your templates, the next options are available:
 
-## Check coupons on Craft CMS
+*   `enabled` (true or false)
+*   `label` (string) Message displayed next to the coupon input
+*   `successMessage` (string) Message displayed if the coupon is valid (twig code allowed)
+*   `errorMessage` (string) Message displayed if the coupon is invalid
+*   `displayTotal` (true or false) If enabled will update the total amount
+*   `totalAmountLabel` (string) Message displayed next to the total amount
+*   `removeCouponLabel` (string) Message displayed for removing a valid coupon
+*   `checkCouponLabel` (string) Message displayed for checking coupon
 
-You'll be able to view/delete coupons under your Craft CMS dashboard going to:  **Stripe Payments** → **Coupons**  
-  
-Here you can check basic information about the coupons.
+```twig
+{% set options = {
+    'coupon' : {
+        'enabled' : true,
+        'label' : 'Apply to this coupon',
+        'successMessage': '{name} applied',
+        'errorMessage': 'Invalid Coupon',
+        'displayTotal': true,
+        'totalAmountLabel': 'Total',
+        'removeCouponLabel': 'Remove Coupon',
+        'checkCouponLabel': 'Check Coupon'
+    }
+} %}
 
-![Stripe Payments Coupons](https://enupal.com/assets/docs/stripe-payments-coupons-1.png)
+{{ craft.enupalstripe.paymentForm('sample', options) }}
+```
