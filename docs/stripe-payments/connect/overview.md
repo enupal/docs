@@ -39,6 +39,12 @@ Basically a **Vendor** is associated to a Craft User and to a Stripe Account, on
 ::: tip
 We recommend save your client id along with your Stripe API keys under teh config file using `testClientId` or `liveClientId` depending if testMode is enabled. Please follow our docs [here](https://docs.enupal.com/stripe-payments/getting-started/saving-your-stripe-api-keys.html#saving-the-stripe-api-keys-via-config-file)
 :::
+
+Please follow our docs in the following order:
+
+1. [Vendors](https://docs.enupal.com/stripe-payments/connect/vendors.html)
+2. [Connect](https://docs.enupal.com/stripe-payments/connect/connects.html)
+3. [Commissions](https://docs.enupal.com/stripe-payments/connect/commissions.html)
  
  
  
