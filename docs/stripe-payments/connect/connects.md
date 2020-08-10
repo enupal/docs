@@ -19,7 +19,7 @@ A connect can be created from two scenarios:
 
 ![Connect Index](https://enupal.com/assets/docs/enupal-stripe-connect-6.png)
 
-2.- From the Front-end, from our example templates go to `marketplace/account` if the user does not have a connect yet, it will automatically created when the Vendor creates a Product, clicking on "New Product"
+2.- From the Front-end, from our example templates go to `marketplace/products` when the vendor creates a new product, if the user does not have a connect yet, it will automatically create one connect (the vendor rate will be the global vendor rate from your Settings). If the vendor already have one connect it will take the first connect and associate the product to that connect.
  
 ## allProducts
 

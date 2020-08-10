@@ -5,7 +5,7 @@ description: Stripe Connect lets you facilitate payments on your software platfo
 
 # Overview
 
-[Stripe Connect](https://stripe.com/en-gb/connect) lets you facilitate payments on your software platform, build a marketplace, and pay out sellers or service providers globally
+[Stripe Connect](https://stripe.com/en-gb/connect) lets you facilitate payments on your Craft CMS site, build a marketplace, and pay out sellers or service providers globally
 
 - **Onboard vendors:** Onboard your vendors and verify their identity.
 - **Pay out vendors:** Split payments, transfer funds, and send money.
