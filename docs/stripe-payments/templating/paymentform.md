@@ -22,6 +22,7 @@ Additionally, you can pass the following options to the _**paymentForm**_ variab
 *   itemDescription
 *   checkoutSuccessUrl
 *   checkoutCancelUrl
+*   customAmountStep (0.01, 1) Value for the step attribute of the number input element (for custom donations, etc)
 
 The **_calculateFinalAmount_** setting is enabled by default so if you pass false, we don't calculate **__quantity \* amount__** as the final amount, you can apply any discount to the amount that you want to charge and will override the amount saved in your Stripe Payment Form
 
