@@ -11,13 +11,20 @@ A vendor is associated to a Craft CMS user and each vendor will be associated to
 
 Vendors can be created from two ways:
 
-1.- From the CP. under Stripe Payments → Vendors on the index page click on "Create Vendor"
-
-2.- Create vendors on user activation, specifying a lightswitch user field or a user group on the Connect settings, here the vendors will be created as disabled and when the vendor connect their Stripe Account the vendor will be enabled.
+- From the CP. under Stripe Payments → Vendors on the index page click on "Create Vendor"
 
 ![Vendors Index](https://enupal.com/assets/docs/enupal-stripe-connect-3.png)
 
 ![Edit Vendor](https://enupal.com/assets/docs/enupal-stripe-connect-4.png)
+
+- Create vendors on user activation, specifying a lightswitch user field or a user group on the Connect settings, here the vendors will be created as disabled and when the vendor connect their Stripe Account the vendor will be enabled. Go to `Stripe Payments → Settings  → Connect` under the *VENDOR SETTINGS* save the "User Group" or "Lightswitch User field"
+
+
+![Vendor Settings](https://enupal.com/assets/docs/stripe-connect-17.png)
+
+::: tip
+If you already have users with a specific user group or lightswitch field you can go ahead a run the Sync Vendors job button.
+:::
 
 ## Sample Templates
 
