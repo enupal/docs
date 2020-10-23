@@ -9,6 +9,7 @@ The table below lists the social networks and identity providers currently suppo
 
 |Adapter Name|Specs|
 |--- |--- |
+|Apple|OAuth2|
 |Amazon|OAuth2|
 |Authentiq|OAuth2|
 |BitBucket|OAuth2|

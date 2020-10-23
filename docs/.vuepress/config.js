@@ -241,7 +241,8 @@ module.exports = {
             'providers/available-providers',
             'providers/create-provider',
             'providers/user-field-mapping',
-            'providers/display-login-url'
+            'providers/display-login-url',
+            'providers/apple'
           ]
         },
         {
