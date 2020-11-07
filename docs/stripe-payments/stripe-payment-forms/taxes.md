@@ -27,6 +27,7 @@ When SCA is enabled under your Stripe Payments settings you will see a new optio
 
 On your Payment Form go to the `Tax` tab, here you can add the taxes to apply to your One-Time and Recurring payment forms. 
 
+#### Dynamic tax rates
 If you have enabled the `Enable Dynamic tax rates (One-time payments)` This list is used to match tax rate(s) to your customer’s shipping address or billing address. _`This setting is only applied to One Time payments`_
 
 ![Stripe Dashboard](https://enupal.com/assets/docs/add-tax.png)

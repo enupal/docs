@@ -5,7 +5,36 @@ description: Coupon codes added in your Stripe dashboard will be displayed on yo
 
 # Overview
 
-Coupon codes added in your Stripe dashboard will be displayed on your Craft CMS dashboard on **Stripe Payments** → **Coupons**. Stripe allows percentage or amount off discounts.
+Coupon codes added in your [Stripe account](https://dashboard.stripe.com/coupons) will be displayed on your Craft CMS dashboard on **Stripe Payments** → **Coupons**. Stripe allows percentage or amount off discounts.
+
+![Stripe Dashboard](https://enupal.com/assets/docs/coupons-create.png)
+
+You can view your Coupons under your Craft CMS dashboard going to `Stripe Payments -> Coupons`
+
+![Stripe Dashboard](https://enupal.com/assets/docs/coupons-index.png)
+
+## Coupons on the new Stripe Checkout
+
+Stripe added support to apply promotional codes via the new Stripe checkout for one-time and recurring payments. You need to enable [SCA](https://docs.enupal.com/stripe-payments/getting-started/sca.html) under your Stripe Payments settings and enable Stripe Checkout on your payment forms to use this feature.
+
+On your Craft CMS dashboard go to Stripe Payments -> Payment Forms and create or edit an existing form, in the right sidebar settings enable the `Coupons` lightswitch and save your payment form.
+
+![Stripe Coupons](https://enupal.com/assets/docs/stripe-coupons.png)
+
+### Override the settings via options
+
+You can also override this feature passing `allowPromotionCodes` via options.
+
+```twig
+{% set options = {
+    'allowPromotionCodes' : true
+} %}
+
+{{ craft.enupalstripe.paymentForm('handle', options) }}
+```
+
+
+## Coupons for elements - SCA disabled
 
 Although Stripe intends for use with subscriptions, you can use coupon codes to let customers apply a discount in your one-time payment forms as well. There are some scenarios where Coupons may not work properly:
 
