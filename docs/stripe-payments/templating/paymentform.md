@@ -110,3 +110,15 @@ For subscriptions forms, you can enabled [Promotional codes](https://stripe.com/
 %}
 {{ craft.enupalstripe.paymentForm('handle', options) }}
 ```
+
+## Trial Days when Stripe Checkout and SCA is enabled
+
+For subscriptions forms on the new Stripe Checkout you can pass `singlePlanTrialDays` to set the trial days to the subscription
+
+```twig
+{% set options = { 
+    "singlePlanTrialDays" : 15
+    } 
+%}
+{{ craft.enupalstripe.paymentForm('handle', options) }}
+```

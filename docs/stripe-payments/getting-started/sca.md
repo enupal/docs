@@ -16,19 +16,33 @@ The Stripe team is working hard to add more features to the new Stripe Checkout,
 |Feature|Status|
 |--- |--- |
 |SCA ready|supported|
-|Apple Pay, iDEAL (one-time), FPX (one-time)|supported|
 |3D Secure  - Test Card (4000 0000 0000 3220)|supported|
 |One Time Payments|supported|
 |Subscriptions|supported|
-|Coupons (One-Time-Payments)|supported|
+|Coupons|supported|
 |One Time Fees (subscriptions)|supported|
 |Donations (custom amounts)|supported|
 |Google Pay|supported|
 |Shipping & Billing Address|supported|
-|Coupons (Recurring-Payments)|supported|
-|More payment methods: Sofort, etc|not supported|
-|Taxes (subscriptions)|not supported (coming soon)|
+|Coupons (recurring-payments)|supported|
+|Taxes (one time and recurring-payments)|supported|
 |Plans with tired billing (subscriptions)|not supported|
+
+|Payment Methods|One Time Payments|Recurring Payments|
+|--- |--- |--- |
+|Card|YES|YES|
+|Apple Pay|YES|YES|
+|Google Pay|YES|YES|
+|iDEAL|YES|NO (yet)|
+|FPX|YES|NO (yet)|
+|Alipay|YES|NO (yet)|
+|BACS DEBIT|YES|NO (yet)|
+|Bancontact|YES|NO (yet)|
+|GIROPAY|YES|NO (yet)|
+|P24|YES|NO (yet)|
+|EPS|YES|NO (yet)|
+|Sofort|YES|NO (yet)|
+|Sepa Debit|YES|NO (yet)|
 
 ## Enable the new Stripe Checkout
 

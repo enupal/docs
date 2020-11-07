@@ -179,8 +179,7 @@ module.exports = {
           title: 'Coupons',
           collapsable: false,
           children: [
-            'coupons/overview',
-            'coupons/subscription-coupons'
+            'coupons/overview'
           ]
         },
         {
