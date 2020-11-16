@@ -370,6 +370,7 @@ module.exports = {
             'translate/manually',
             'translate/bulk-google-translate',
             'translate/bulk-yandex',
+            'translate/sync-with-db',
           ]
         }
       ],
