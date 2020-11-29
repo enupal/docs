@@ -105,6 +105,7 @@ module.exports = {
           {text: 'Enupal Snapshot', link: 'https://enupal.com/craft-plugins/enupal-snapshot/pricing'},
           {text: 'Enupal Slider', link: 'https://enupal.com/craft-plugins/enupal-slider/pricing'},
           {text: 'PayPal Buttons', link: 'https://enupal.com/craft-plugins/paypal/pricing'},
+          {text: 'Presence', link: 'https://plugins.craftcms.com/enupal-docs'},
         ]
       },
       {text: 'Back to Enupal →', link: 'https://enupal.com/'},
@@ -374,6 +375,25 @@ module.exports = {
           ]
         }
       ],
+      // Presence
+      '/presence/': [
+        ['../', '← All Plugins'],
+        {
+          title: 'Introduction',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        },
+        {
+          title: 'Getting started',
+          collapsable: false,
+          children: [
+            'getting-started/installation-setup',
+            'getting-started/requirements'
+          ]
+        }
+      ],
       // Translate
       '/enupal-snapshot/': [
         ['../', '← All Plugins'],
@@ -441,7 +461,8 @@ module.exports = {
             ['socializer/', 'Socializer'],
             ['enupal-backup/', 'Enupal Backup'],
             ['translate/', 'Enupal Translate'],
-            ['enupal-snapshot/', 'Enupal Snapshot']
+            ['enupal-snapshot/', 'Enupal Snapshot'],
+            ['presence/', 'Presence']
           ]
         }
         // Add more to the main menu
