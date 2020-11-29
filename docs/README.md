@@ -14,3 +14,4 @@ Developed with 💚  for Craft CMS
 - [Enupal Backup](/enupal-backup)
 - [Enupal Snapshot](/stripe-payments)
 - [Enupal Translate](/translate)
+- [Presence](/presence)
