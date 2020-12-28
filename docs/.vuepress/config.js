@@ -153,6 +153,7 @@ module.exports = {
           children: [
             'templating/paymentform',
             'templating/payment-forms',
+            'templating/order-details',
             'templating/getallorders',
             'templating/getorderbynumber',
             'templating/orders-display-form-fields-values-metadata',
