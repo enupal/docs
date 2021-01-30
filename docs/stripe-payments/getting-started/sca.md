@@ -26,7 +26,7 @@ The Stripe team is working hard to add more features to the new Stripe Checkout,
 |Shipping & Billing Address|supported|
 |Coupons (recurring-payments)|supported|
 |Taxes (one time and recurring-payments)|supported|
-|Plans with tired billing (subscriptions)|not supported|
+|Plans with tired billing (subscriptions)|supported|
 
 |Payment Methods|One Time Payments|Recurring Payments|
 |--- |--- |--- |
