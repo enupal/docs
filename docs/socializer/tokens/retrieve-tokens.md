@@ -18,11 +18,11 @@ variables to retrieve the credentials above:
 ::: code
 
 ```twig
-{% set github = craft.socializer.getProviderByHandle('google') %}
-{% set tokens = github.getCurrentUserToken() %}
+{% set provider = craft.socializer.getProviderByHandle('google') %}
+{% set tokens = provider.getCurrentUserToken() %}
 {% set accessToken = tokens.access_token %}
-{% set clientId = github.getClientId() %}
-{% set clientSecret = github.getClientSecret() %}
+{% set clientId = provider.getClientId() %}
+{% set clientSecret = provider.getClientSecret() %}
 ```
 
 ```php
