@@ -130,3 +130,35 @@ class YourPlugin extends Plugin
 }    
 ```
 
+## beforeProcessTransfer
+
+This event is fired before transfer the `$comission->totalPrice` to the vendor 
+
+```php
+use enupal\stripe\services\Commissions;
+use enupal\stripe\events\BeforeProcessTransferEvent;
+use enupal\stripe\Stripe;
+use craft\base\Plugin;
+use Craft;
+
+class YourPlugin extends Plugin
+{
+    public function init()
+    {
+        ....
+        ....
+     
+         Event::on(Commissions::class, Commissions::EVENT_BEFORE_PROCESS_TRANSFER, function(BeforeProcessTransferEvent $e) {
+              $commission = $e->commission;
+              $vendor = $e->vendor;
+              $order = $commission->getOrder();
+              // update the total price if needed
+              $commission->totalPrice = 13.24;
+              
+         });
+        ...
+        ...        
+     }
+}       
+```
+
