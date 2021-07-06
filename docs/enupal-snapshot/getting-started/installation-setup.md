@@ -81,3 +81,9 @@ If the wkhtmltopdf path is not correct you'll see a "Wrong path" error.
 :::
 
 ![Enupal Snapshot settings](https://enupal.com/assets/docs/enupal-snapshot-25.png)
+
+## Upload Location
+
+Please check that the asset volume that you're using for `Upload Location` has enabled the "Assets in this volume have public URLs" lightswitch under Settings -> Assets -> Volumes
+
+![Enupal Snapshot settings](https://enupal.com/assets/docs/asset-setting.png)
