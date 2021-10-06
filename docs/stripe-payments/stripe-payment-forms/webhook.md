@@ -38,4 +38,32 @@ If you're using Stripe Elements and using the iDEAL payment method OR if you hav
 
 ![Webhook Url](https://enupal.com/assets/docs/39-stripe-payments.png)
 
+## Test webhooks locally
 
+A webhook URL needs to be an URL that is publicly available (can be reached across the internet via a public domain name), however, if you're developing your application locally you need a way to test your app on your development environment. 
+
+### Stripe Cli
+
+The [Stripe CLI](https://stripe.com/docs/stripe-cli) is a developer tool to help you build, test, and manage your integration with Stripe directly from your terminal. The Stripe CLI is simple to install, works on macOS, Windows, and Linux, and offers a range of functionality to make your developer experience with Stripe better.  
+
+Please follow the next steps if you want to test Stripe Payments when SCA is enabled and you're using Stripe Checkout (**this is only needed in a local or development environment**) 
+
+- Download and install Stripe Cli for your OS following the instructions [here](https://stripe.com/docs/stripe-cli#install). 
+- Open the terminal and run the following command and press enter:
+
+```plaintext
+stripe login
+```
+
+- Forward the Stripe webhook events to your local Webhook URL:
+    - On your Craft CMS dashboard go to: Stripe Payments -> Settings -> Webhook
+    - Copy your Webhook URL
+- Run the following command (replace YOUR_WEBHOOK_URL with the webhook URL copied in the previous step):
+
+```plaintext
+stripe listen --forward-to YOUR_WEBHOOK_URL
+```
+
+- Optionally, you can copy your webhook signing secret and store it on your `testWebhookSigningSecret` [webhook settings](https://docs.enupal.com/stripe-payments/getting-started/saving-your-stripe-api-keys.html#saving-the-stripe-api-keys-via-config-file)
+
+- Remember that you may need to run the 2 step each 90 days (login to stripe).
