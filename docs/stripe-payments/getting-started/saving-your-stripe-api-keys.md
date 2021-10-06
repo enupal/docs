@@ -45,6 +45,8 @@ return [
             'testMode' => 1,
             // This setting is only needed is Stripe Connect is enabled 
             'testClientId' => getenv('YOUR_TEST_CLIENT_ID'),
+            // OPTIONALLY -> if you want to check webhook signatures you can add the following setting (more info here https://stripe.com/docs/webhooks/signatures)
+            'testWebhookSigningSecret' => getenv('TEST_WEBHOOK_SIGNING_SECRET'),
         ]
     ],
 
@@ -56,6 +58,8 @@ return [
             'testMode' => 0,
             // This setting is only needed is Stripe Connect is enabled 
             'liveClientId' => getenv('YOUR_LIVE_CLIENT_ID'),
+            // OPTIONALLY -> if you want to check webhook signatures you can add the following setting (more info here https://stripe.com/docs/webhooks/signatures)
+            'liveWebhookSigningSecret' => getenv('LIVE_WEBHOOK_SIGNING_SECRET'),
         ]    
     ],
 ];
