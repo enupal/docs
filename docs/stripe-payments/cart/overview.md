@@ -10,11 +10,11 @@ The Cart API is used to interact with a cart during a customer's session; and pr
 The following Cart API endpoints are available:
 
 ```php Endpoints
-GET  /enupal-payments/cart
-POST /enupal-payments/cart/add
-POST /enupal-payments/cart/update
-POST /enupal-payments/cart/clear
-POST /enupal-payments/cart/checkout
+GET  /enupal-stripe/cart
+POST /enupal-stripe/cart/add
+POST /enupal-stripe/cart/update
+POST /enupal-stripe/cart/clear
+POST /enupal-stripe/cart/checkout
 ```
 
 And the following settings are available on your Craft CMS control panel:
@@ -43,7 +43,7 @@ The API endpoints listed above only need the Stripe Price Ids, one Product can h
 
 ### Checkout the cart
 
-When the user wants checkout the cart, the `/enupal-payments/cart/checkout` endpoint will return a Stripe Checkout URL and the user will be redirected to the [Stripe Checkout page](https://stripe.com/payments/checkout) with all the items added to the cart.
+When the user wants checkout the cart, the `POST /enupal-stripe/cart/checkout` endpoint will return a Stripe Checkout URL and the user will be redirected to the [Stripe Checkout page](https://stripe.com/payments/checkout) with all the items added to the cart.
 
 After the user pays, will be redirected to the Craft CMS site and an order will be created on the Stripe Payments plugin.
 
