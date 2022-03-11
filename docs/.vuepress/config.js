@@ -131,6 +131,14 @@ module.exports = {
           ]
         },
         {
+          title: 'Cart API',
+          collapsable: false,
+          children: [
+            'cart/overview',
+            'cart/api-endpoints'
+          ]
+        },
+        {
           title: 'Stripe Payments',
           collapsable: false,
           children: [
