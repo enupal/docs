@@ -135,7 +135,8 @@ module.exports = {
           collapsable: false,
           children: [
             'cart/overview',
-            'cart/api-endpoints'
+            'cart/api-endpoints',
+            'cart/how-to-use'
           ]
         },
         {

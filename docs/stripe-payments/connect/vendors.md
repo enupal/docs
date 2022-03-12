@@ -28,7 +28,7 @@ If you already have users with a specific user group or lightswitch field you ca
 
 ## Sample Templates
 
-We have created this basic [sample templates](https://github.com/enupal/stripe/tree/master/templates), these are useful to handle vendors on the front-end to connect to Stripe and to manage products. Templates for Craft Commerce _comming soon_
+We have created this basic [sample templates](https://github.com/enupal/stripe/tree/master/templates/connect), these are useful to handle vendors on the front-end to connect to Stripe and to manage products. Templates for Craft Commerce _comming soon_
 
 ## How to associate a Stripe Account to a vendor?
 

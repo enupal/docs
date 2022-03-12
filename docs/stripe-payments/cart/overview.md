@@ -7,7 +7,7 @@ description: The Cart API is used to interact with a cart during a customer's se
 
 The Cart API is used to interact with a cart during a customer's session; and provides you the quickest way to build conversion-optimized final checkout page, hosted on [Stripe Checkout](https://stripe.com/docs/payments/checkout).
 
-The following Cart API endpoints are available:
+The following Cart API endpoints are available to retrieve, add, update, clear items, and checkout the Cart:
 
 ```php Endpoints
 GET  /enupal-stripe/cart
@@ -17,7 +17,7 @@ POST /enupal-stripe/cart/clear
 POST /enupal-stripe/cart/checkout
 ```
 
-And the following settings are available on your Craft CMS control panel:
+Besides the API endpoints, the following settings are available on your Craft CMS control panel:
 
 - Over 18 payment methods
 - Over 40 languages including auto-detect for the final checkout page
@@ -27,6 +27,7 @@ And the following settings are available on your Craft CMS control panel:
 - Promotion Codes
 - Collect customer phone number
 - Product Field Type, to integrate the power of Craft CMS and Stripe
+- Checkout page powered by Stripe with all in one page: super secure, user-friendly, multiple payment methods, taxes, shipping, Apple and Google Pay, and much more!
 - Abandoned carts `(coming soon)`
 
 ::: tip
@@ -43,9 +44,9 @@ The API endpoints listed above only need the Stripe Price Ids, one Product can h
 
 ### Checkout the cart
 
-When the user wants checkout the cart, the `POST /enupal-stripe/cart/checkout` endpoint will return a Stripe Checkout URL and the user will be redirected to the [Stripe Checkout page](https://stripe.com/payments/checkout) with all the items added to the cart.
+When the user wants checkout the cart, the `POST /enupal-stripe/cart/checkout` endpoint will return a Stripe Checkout object and then the user can be redirected to the [Stripe Checkout page](https://stripe.com/payments/checkout) with all the items added to the cart.
 
-After the user pays, will be redirected to the Craft CMS site and an order will be created on the Stripe Payments plugin.
+After the user successfully checkout the cart, will be redirected to the Craft CMS site and an order will be created on the Stripe Payments plugin.
 
 ::: tip
 If you want to explore all the Stripe Checkout features try a live example [here](https://checkout.stripe.dev/)
