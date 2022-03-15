@@ -7,7 +7,7 @@ description: The Cart API is used to interact with a cart during a customer's se
 
 The Cart API is used to interact with a cart during a customer's session; and provides you the quickest way to build conversion-optimized final checkout page, hosted on [Stripe Checkout](https://stripe.com/docs/payments/checkout).
 
-The following Cart API endpoints are available to retrieve, add, update, clear items, and checkout the Cart:
+The following [Cart API endpoints](/stripe-payments/cart/api-endpoints) are available to retrieve, add, update, clear items, and checkout the Cart:
 
 ```php Endpoints
 GET  /enupal-stripe/cart
@@ -17,7 +17,7 @@ POST /enupal-stripe/cart/clear
 POST /enupal-stripe/cart/checkout
 ```
 
-Besides the API endpoints, the following settings are available on your Craft CMS control panel:
+Besides the API endpoints, the following cart settings are available on your Craft CMS control panel:
 
 - Over 18 payment methods
 - Over 40 languages including auto-detect for the final checkout page

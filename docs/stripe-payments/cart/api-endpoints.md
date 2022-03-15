@@ -12,7 +12,7 @@ For simplicity, the code examples are thought to be used under a browser session
 :::
 
 ::: warning
-The Cart API accepts One-Time items and Recurring (subscription) items at the same cart session, however, if you're adding more than one recurring item, all the intervals and the currencies should be the same
+The Cart API accepts One-Time items and Recurring (subscription) items at the same cart session, however, if you're adding more than one recurring item, all the intervals, and currencies should be the same
 :::
 
 ## POST /enupal-stripe/cart/add
