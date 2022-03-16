@@ -80,7 +80,52 @@ Find the bin folder, in that folder, you'll see the wkhtmltopdf and wkhtmltoimag
 If the wkhtmltopdf path is not correct you'll see a "Wrong path" error.
 :::
 
-![Enupal Snapshot settings](https://enupal.com/assets/docs/enupal-snapshot-25.png)
+## Install wkhtmltopdf on Nitro 2
+
+To install wkhtmltopdf on [Nitro 2](https://craftcms.com/docs/nitro/2.x/) (may be the same for Alpine Linux distros), follow the instructions below:
+
+- Login to nitro via ssh as root:
+  `nitro ssh your_nitro_site_name --root`
+- Run the following command to install `wkhtmltopdf` and dependencies
+```batch
+apk --update --no-cache add \
+   wkhtmltopdf \
+    libgcc \
+    libstdc++ \
+    musl \
+    qt5-qtbase \
+    qt5-qtbase-x11 \
+    qt5-qtsvg \
+    qt5-qtwebkit \
+    ttf-freefont \
+    ttf-dejavu \
+    ttf-droid \
+    ttf-liberation \
+    fontconfig \
+    so:libQt5Core.so.5 \
+    so:libQt5Gui.so.5 \
+    so:libQt5Network.so.5 \
+    so:libQt5PrintSupport.so.5 \
+    so:libQt5Svg.so.5 \
+    so:libQt5WebKit.so.5\
+    so:libQt5WebKitWidgets.so.5\
+    so:libQt5Widgets.so.5\
+    so:libc.musl-x86_64.so.1\
+    so:libgcc_s.so.1\
+    so:libstdc++.so.6
+```
+
+- On your Craft CMS dashboard go to the Enupal Snapshot settings and save the following settings:
+
+  - Absolute Binary Path of wkhtmltopdf lib:
+  <br>
+  `/usr/bin/wkhtmltopdf`
+
+  - Absolute Binary Path of wkhtmltoimage lib:
+  <br>
+  `/usr/bin/wkhtmltoimage`
+
+- Save your Settings
 
 ## Upload Location
 
