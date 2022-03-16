@@ -382,6 +382,7 @@ module.exports = {
             'translate/bulk-google-translate',
             'translate/bulk-yandex',
             'translate/sync-with-db',
+            'translate/import-file'
           ]
         }
       ],
