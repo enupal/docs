@@ -36,7 +36,7 @@ The Cart API is available on the Stripe Payments `pro` edition
 
 ## How it works?
 
-Stripe Payments will sync the Products and Prices created on the Stripe dashboard (One-Time and Recurring) via webhooks, you will be able to see the products on the Craft CMS dashboard.
+Stripe Payments will sync the [Products and Prices](https://stripe.com/docs/products-prices/overview) created on the Stripe dashboard (One-Time and Recurring) via webhooks, you will be able to see the products on the Craft CMS dashboard.
 
 Once the Products are synced, you can go ahead and start creating your Cart behavior on your front-end site, either displaying the Products and Prices as they come from Stripe using our Product and Price elements or simply creating a Stripe Payments Product field type and adding it into your Craft CMS section layouts, this is useful if you need to add more info to your Products besides the info stored on Stripe like images, handling inventory, SEO data, etc.
 
