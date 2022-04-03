@@ -19,8 +19,9 @@ Please follow the next two steps to redirect users to the customer portal:
 
 ```twig
 {% if currentUser %}
-    <form method="POST" action="/enupal-stripe/customer-portal">
+    <form method="POST">
         {{ csrfInput() }}
+        {{ actionInput('enupal-stripe/stripe/create-customer-portal') }}
         <input type="hidden" name="returnUrl" value="{{ siteUrl('/account') }}">
         <button type="submit">Manage billing</button>
     </form>
