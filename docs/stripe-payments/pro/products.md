@@ -1,29 +1,15 @@
 ---
 date: 2022-03-09
-description: Instructions to use Stripe Payments Cart API. Let's see how to use the sample Cart templates to learn how display products and prices and how to call the Stripe Payment Cart API
+description: The Cart API and the Checkout twig tag uses Stripe Prices create the Stripe Checkout page. Let's see how can we sync Products from Stripe
 ---
 
-# How to use
+# Products and Prices
 
-Follow the following instructions in order to have everything setup to use the Cart API:
+The Cart API and the Checkout twig tag uses the [Stripe Products and Prices](https://stripe.com/docs/products-prices/overview) to create the Stripe Checkout page.
 
-## Webhooks 
-Make sure you have properly setup all our required webhooks events on your Stripe dashboard, [learn here](/stripe-payments/stripe-payment-forms/webhook) how to add the webhook events.
+## Create Products
 
-::: tip
-To test locally make sure to install the Stripe Cli to forward the events to your local site, [instructions here](/stripe-payments/stripe-payment-forms/webhook)
-:::
-
-## Automatic Tax 
-
-If you need to collect taxes, we recommend to enabled [Automatic Tax](https://stripe.com/tax) on your Stripe account, so everytime you create a product you can choose the right tax behavior for that product. And enable the `Automatic Tax` setting under `Stripe Payments -> Settings -> Cart`
-
-::: tip
-This step is optional, but if you enabled `Automatic Tax`, all the products on the cart needs to have defined the tax code, you can set the tax code when you edit the product on Stripe after enable [Automatic Tax](https://stripe.com/tax)
-:::
-
-
-## enupal-sync metadata 
+Each time a `Product/Price` is `created/updated/deleted` on your Stripe dashboard it will be **synced** on Stripe Payments, and to know what products Stripe Payments needs to sync please follow the next instructions:
 
 On your Stripe dashboard, click on `Products` and then click on `Add Product`, here you can add the product info **make sure** to add the `enupal-sync` metadata, with this key Stripe Payments knows what Products sync from Stripe.
 
@@ -33,13 +19,25 @@ On your Stripe dashboard, click on `Products` and then click on `Add Product`, h
 You can also update existing Products by adding the `enupal-sync` metadata in order to sync with Stripe Payments.
 :::
 
-## Price Info 
+### Add Price
 
 Add at least one price to your Product, here you can define price type: `One-Time` or `Recurring`
 
 ![Stripe Price](https://enupal.com/assets/docs/price-info.png)
 
-## Products synced 
+## Sync All Products
+
+Besides syncing the products each time a Stripe `Product/Price` is `created/updated/deleted` you can also choose Sync all products at once, this feature is available on your Stripe Payments settings, if the product/price already exists it will update it.
+
+This setting is under `Stripe Payments -> Settings -> Pro -> Products Sync`
+
+![Stripe Product](https://enupal.com/assets/docs/stripe-payments-sync-all-products.png)
+
+::: tip
+Make sure that the `enupal-sync` metadata is set on your Stripe Product
+:::
+
+## Products synced
 
 Make sure you Products are properly synced, under on your Craft CMS go to `Stripe Payments -> Products`
 

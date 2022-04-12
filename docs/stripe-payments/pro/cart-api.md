@@ -3,7 +3,7 @@ date: 2022-03-09
 description: This guide shows how to use the Stripe Payments Cart API to update cart line items, add cart metadata, and generate checkout the cart.
 ---
 
-# Cart API Endpoints
+# Cart API
 
 This guide shows how to use the Stripe Payments Cart API to update/add cart line items, add cart metadata, and checkout the cart.
 
@@ -32,12 +32,22 @@ In the following example, `quantity` is the amount of items you want to add and 
 	"items": [
 	  {
         "price": "price_1KG2NLLLWVlbcCFQjBXsO9HG",
+        "quantity": 2
+	  }
+	]
+}
+```
+```json Request - Optional fields
+{
+	"items": [
+	  {
+        "price": "price_1KG2NLLLWVlbcCFQjBXsO9HG",
         "quantity": 2,
         // Optional - An arbitrary string attached to the object. Often useful for displaying to users. Defaults to product name.
         "description": "Shirt",
         // Optional - When set, provides configuration for this item’s quantity to be adjusted by the customer during Checkout.
         "adjustable_quantity": {
-          "enabled": "true",
+          "enabled": true,
           "minimum": 1,
           "maximum": 10
         }
@@ -82,7 +92,7 @@ In the following example, `quantity` is the amount of items you want to add and 
             "price": "price_1KErstLLWVlbcCFQEGHbAgdl",
             "quantity": 2,
             "adjustable_quantity": {
-                "enabled": "true",
+                "enabled": true,
                 "minimum": 1,
                 "maximum": 10,
             }
@@ -223,7 +233,7 @@ All monetary properties are returned in the default cart settings currency.
             "price": "price_1KErstLLWVlbcCFQEGHbAgdl",
             "quantity": 2,
             "adjustable_quantity": {
-                "enabled": "true",
+                "enabled": true,
                 "minimum": 1,
                 "maximum": 10,
             }
@@ -365,7 +375,7 @@ To update line item quantities, you can make a `POST` request with an updates ob
             "price": "price_1KG2NLLLWVlbcCFQkM3jHBCc",
             "quantity": 2,
             "adjustable_quantity": {
-                "enabled": "true",
+                "enabled": true,
                 "minimum": 1,
                 "maximum": 10,
             }
@@ -526,7 +536,9 @@ $.ajax({
 
 ## POST /enupal-stripe/cart/checkout
 
-Use the `POST /enupal-stripe/cart/checkout` endpoint retrieve a Stripe Checkout object, use the `url` attribute to redirect the user to the Stripe Checkout page.
+Use the `POST /enupal-stripe/cart/checkout` endpoint retrieve a Stripe Checkout object, use the `url` attribute to redirect the user to the [Stripe Checkout page](https://stripe.com/payments/checkout).
+
+After the user successfully checkout the cart, will be redirected back to the Craft CMS site and an order will be created on the Stripe Payments plugin.
 
 ::: tip
 - The user can go back to the website either to the `Cancel URL` or via the back browser button

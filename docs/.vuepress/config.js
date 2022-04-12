@@ -131,12 +131,14 @@ module.exports = {
           ]
         },
         {
-          title: 'Cart API',
+          title: 'Pro',
           collapsable: false,
           children: [
-            'cart/overview',
-            'cart/api-endpoints',
-            'cart/how-to-use'
+            'pro/overview',
+            'pro/requirements',
+            'pro/products',
+            'pro/cart-api',
+            'pro/checkout'
           ]
         },
         {
