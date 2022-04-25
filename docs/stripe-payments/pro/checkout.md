@@ -10,6 +10,7 @@ The `checkout` twig tag will return a Stripe Checkout object, use the `url` attr
 
 ::: code
 ```twig Simple
+{# The price id could be a One-Time or Recurring price #}
 {% set items = [
     {
         "price": "price_1KErstLLWVlbcCFQEGHbAgdl",
@@ -46,5 +47,71 @@ The `checkout` twig tag will return a Stripe Checkout object, use the `url` attr
 {% set checkoutSession = craft.enupalStripe.checkout(items, metadata) %}
 
 <a href="{{ checkoutSession.url }}">Pay</a>
+```
+
+```twig Custom One-Time Amount
+{% set items = [
+    {
+        "name" : "T-shirt",
+        "quantity": 2,
+        "currency": "usd",
+        "description" : "Comfortable cotton t-shirt",
+        "amount" : 1500
+        "adjustable_quantity": {
+            "enabled": true,
+            "minimum": 1,
+            "maximum": 10
+        }
+    }
+]
+%}
+
+{% set checkoutSession = craft.enupalStripe.checkout(items) %}
+<a href="{{ checkoutSession.url }}">Pay</a>
+```
+```twig Custom Recurring 1
+{# If you know the Stripe product id #}
+{% set items = [
+    {
+        "quantity": 1,
+        "price_data" : {
+            "currency": "usd",
+            "product": "prod_LHuO18MQRkHqth",
+            "unit_amount": 1000,
+            "recurring": {
+                "interval": "month",
+                "interval_count": 1
+            }
+        }
+    }
+]
+%}
+
+{% set checkoutSession = craft.enupalStripe.checkout(items) %}
+<a href="{{ checkoutSession.url }}">Subscribe</a>
+```
+
+```twig Custom Recurring 2
+{# If you don't know the Stripe product id, the product created on Stripe will be marked as archived #}
+{% set items = [
+    {
+        "quantity": 1,
+        "price_data" : {
+            "currency": "usd",
+            "product_data": {
+                "name": "Gold membership"
+            },
+            "unit_amount": 1000,
+            "recurring": {
+                "interval": "month",
+                "interval_count": 1
+            }
+        }
+    }
+]
+%}
+
+{% set checkoutSession = craft.enupalStripe.checkout(items) %}
+<a href="{{ checkoutSession.url }}">Subscribe</a>
 ```
 :::
