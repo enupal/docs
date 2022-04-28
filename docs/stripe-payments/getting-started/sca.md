@@ -48,7 +48,7 @@ The Stripe team is working hard to add more features to the new Stripe Checkout,
 
 The new Stripe Checkout will redirect users to a Stripe checkout page. In order to use the new checkout workflow, it's mandatory that you follow the next instructions:
 
-*   **Webhooks:** set up your webhook URL in your Stripe account, [learn here](https://enupal.com/craft-plugins/stripe-payments/docs/stripe-payment-forms/webhook#entry:6222:url) how to add your webhook URL.
+*   **Webhooks:** set up your webhook URL in your Stripe account, [learn here](/stripe-payments/stripe-payment-forms/webhook) how to add your webhook URL.
 *   **Enable SCA:** go to Stripe Payments → Settings→ General and enable the "Use Strong Customer Authentication (SCA)" lightswitch
 *   **Enable Stripe Checkout:** go to your payment forms and enable "Stripe Checkout" lightswitch
     *   **Add Checkout Success URL:** Redirect buyers' to this URL after they complete their payments

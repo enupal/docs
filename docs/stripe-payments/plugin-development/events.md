@@ -162,3 +162,38 @@ class YourPlugin extends Plugin
 }       
 ```
 
+## beforeCreateSession
+
+This event is fired before a [checkout session](https://stripe.com/docs/api/checkout/sessions/create) is created.
+
+::: tip
+- You can use the `isCart` property to check if the session is for a Cart checkout
+- Check the [checkout session](https://stripe.com/docs/api/checkout/sessions/create) docs to know what attributes are valid
+:::
+
+```php
+use enupal\stripe\services\Checkout;
+use enupal\stripe\events\CheckoutEvent;
+use enupal\stripe\Stripe;
+use craft\base\Plugin;
+use Craft;
+
+class YourPlugin extends Plugin
+{
+    public function init()
+    {
+        ....
+        ....
+     
+         Event::on(Checkout::class, Checkout::EVENT_BEFORE_CREATE_SESSION, function(CheckoutEvent $e) {
+              $isCart = $e->isCart;
+              $sessionParams = $e->sessionParams;
+              //overwrite $sessionParams
+              $sessionParams['cancel_url'] = 'https://yoursite.com/cancel';
+              $e->sessionParams = $sessionParams;
+         });
+        ...
+        ...        
+     }
+}       
+```

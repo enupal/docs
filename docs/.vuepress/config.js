@@ -131,6 +131,17 @@ module.exports = {
           ]
         },
         {
+          title: 'Pro',
+          collapsable: false,
+          children: [
+            'pro/overview',
+            'pro/requirements',
+            'pro/products',
+            'pro/cart-api',
+            'pro/checkout'
+          ]
+        },
+        {
           title: 'Stripe Payments',
           collapsable: false,
           children: [
@@ -373,6 +384,7 @@ module.exports = {
             'translate/bulk-google-translate',
             'translate/bulk-yandex',
             'translate/sync-with-db',
+            'translate/import-file'
           ]
         }
       ],

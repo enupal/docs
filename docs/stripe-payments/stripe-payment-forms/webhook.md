@@ -31,6 +31,12 @@ The following events are required by Stripe Payments, feel free to review the [f
 *   `checkout.session.completed`
 *   `customer.subscription.created`
 *   `customer.subscription.deleted`
+*   `product.created`
+*   `product.updated`
+*   `product.deleted`
+*   `price.created`
+*   `price.updated`
+*   `price.deleted`
 
 ::: tip
 If you're using Stripe Elements and using the iDEAL payment method OR if you have SCA enabled,  saving the webhook URL to your Stripe Account is required 
