@@ -49,7 +49,7 @@ The `checkout` twig tag will return a Stripe Checkout object, use the `url` attr
 <a href="{{ checkoutSession.url }}">Pay</a>
 ```
 
-```twig Custom One-Time Amount
+```twig Custom One-Time
 {% set items = [
     {
         "name" : "T-shirt",
@@ -69,7 +69,7 @@ The `checkout` twig tag will return a Stripe Checkout object, use the `url` attr
 {% set checkoutSession = craft.enupalStripe.checkout(items) %}
 <a href="{{ checkoutSession.url }}">Pay</a>
 ```
-```twig Custom Recurring 1
+```twig Recurring1
 {# If you know the Stripe product id #}
 {% set items = [
     {
@@ -91,7 +91,7 @@ The `checkout` twig tag will return a Stripe Checkout object, use the `url` attr
 <a href="{{ checkoutSession.url }}">Subscribe</a>
 ```
 
-```twig Custom Recurring 2
+```twig Recurring2
 {# If you don't know the Stripe product id, the product created on Stripe will be marked as archived #}
 {% set items = [
     {
