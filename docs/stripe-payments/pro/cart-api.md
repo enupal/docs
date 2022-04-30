@@ -15,6 +15,13 @@ For simplicity, the code examples are thought to be used under a browser session
 The Cart API accepts One-Time items and Recurring (subscription) items at the same cart session, however, if you're adding more than one recurring item, all the intervals, and currencies should be the same
 :::
 
+## Sample Cart API templates
+
+Stripe Payments provides basic sample templates that you can use to learn how to retrieve products and prices and how to call the [Cart API endpoints](/stripe-payments/cart/api-endpoints)
+
+Download the [sample templates](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fenupal%2Fstripe%2Ftree%2Fmaster%2Ftemplates%2Fcart%2Fstore) folder and paste it under your `templates` folder under your root craft installation.
+
+
 ## POST /enupal-stripe/cart/add
 
 Use the `POST /enupal-stripe/cart/add` endpoint to add one or multiple items to the cart.
