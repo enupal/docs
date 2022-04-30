@@ -73,10 +73,3 @@ Check the following example on how to retrieve the Products and Prices on the tw
     {% endfor %}
 {% endfor %}
 ```
-
-## Sample Cart API templates
-
-Stripe Payments provides basic sample templates that you can use to learn how to retrieve products and prices and how to call the [Cart API endpoints](/stripe-payments/cart/api-endpoints)
-
-Download the [sample templates](https://github.com/enupal/stripe/tree/master/templates/cart) folder and paste it under your `templates` folder under your root craft installation.
-
