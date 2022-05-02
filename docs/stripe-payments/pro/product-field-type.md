@@ -7,7 +7,7 @@ description: The Stripe Product field type its useful if you need to add more in
 
 The `Stripe Product field type` its useful if you need to add more info to your Products besides the info stored on Stripe like images, handling inventory, SEO data, etc.
 
-Let's say that the handle of your Stripe Product Field is "stripeProduct", in the following example you can see how to output some variables and methods available in the field type:
+Let's say that the handle of your Stripe Product Field is `stripeProduct`, in the following example you can see how to output some variables and methods available in the field type:
 
 ```twig
 {% set product = entry.stripeProduct.one() %}
