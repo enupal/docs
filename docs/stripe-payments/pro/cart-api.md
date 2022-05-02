@@ -324,7 +324,7 @@ $.ajax({
 
 ## POST /enupal-stripe/cart/update
 
-Use the `POST /enupal-stripe/cart/add` endpoint to update the cart's line item quantities, or attributes and cart's metadata. You can submit a serialized cart form, or submit separate updates to a cart's line items, or attributes.
+Use the `POST /enupal-stripe/cart/update` endpoint to update the cart's line item quantities, or attributes and cart's metadata. You can submit a serialized cart form, or submit separate updates to a cart's line items, or attributes.
 
 To update line item quantities, you can make a `POST` request with an updates object. The updates object must contain key-value pairs where the key is the line item's price_id, and the value is the desired line object to update:
 
@@ -550,7 +550,7 @@ After the user successfully checkout the cart, will be redirected back to the Cr
 ::: tip
 - The user can go back to the website either to the `Cancel URL` or via the back browser button
 - When the user successfully checkout the cart, will be redirected to the `Success Return URL` and a Stripe Payments order will be created.
-- The [CheckoutEvent](../plugin-development/events) can be used to overwrite any of the [Stripe Session](https://stripe.com/docs/api/checkout/sessions/create) params before create the checkout session.
+- The [CheckoutEvent](https://docs.enupal.com/stripe-payments/plugin-development/events.html#beforecreatesession) can be used to overwrite any of the [Stripe Session](https://stripe.com/docs/api/checkout/sessions/create) params before create the checkout session.
 :::
 
 ::: code
