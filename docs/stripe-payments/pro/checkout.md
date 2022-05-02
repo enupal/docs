@@ -8,6 +8,10 @@ The `checkout` twig tag is a new functionality to create a Stripe Checkout sessi
 
 The `checkout` twig tag will return a Stripe Checkout object, use the `url` attribute to redirect the user to the [Stripe Checkout page](https://stripe.com/payments/checkout).
 
+::: tip
+Stripe will always provide the `amount` and `unit_amount` in the smallest common currency unit (i.e. for USD or EUR, 100 cents instead of $1.00). However, for zero-decimal currencies (i.e. JPY, Japanese Yen), the smallest currency is the regular denomination (¥1 for 1 Yen)
+:::
+
 ::: code
 ```twig Simple
 {# The price id could be a One-Time or Recurring price #}
@@ -56,7 +60,7 @@ The `checkout` twig tag will return a Stripe Checkout object, use the `url` attr
         "quantity": 2,
         "currency": "usd",
         "description" : "Comfortable cotton t-shirt",
-        "amount" : 1500
+        "amount" : 1500,
         "adjustable_quantity": {
             "enabled": true,
             "minimum": 1,

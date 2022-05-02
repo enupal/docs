@@ -138,7 +138,8 @@ module.exports = {
             'pro/requirements',
             'pro/products',
             'pro/cart-api',
-            'pro/checkout'
+            'pro/checkout',
+            'pro/product-field-type',
           ]
         },
         {
