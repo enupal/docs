@@ -124,6 +124,7 @@ module.exports = {
           title: 'Getting started',
           collapsable: false,
           children: [
+            'getting-started/video-tutorial',
             'getting-started/installation-setup',
             'getting-started/requirements',
             'getting-started/saving-your-stripe-api-keys',

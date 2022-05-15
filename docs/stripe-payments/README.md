@@ -7,7 +7,8 @@ description: Stripe Payments allows customers sign up for recurring and one-time
 
 Stripe Payments allows customers sign up for recurring and one-time payments with Stripe, perfect for orders, donations, subscriptions, and events. Create simple payment forms in seconds easily without coding. For Craft CMS 3.x
 
-## Stripe Payments 2 hours tutorial
+### Stripe Payments 2 hours tutorial
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Te1ojDiVaR8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
