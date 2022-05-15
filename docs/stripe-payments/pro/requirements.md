@@ -13,10 +13,10 @@ All the settings related to Stripe Payments Pro are under `Stripe Payments -> Se
 ![Stripe Payments Pro Settings](https://enupal.com/assets/docs/stripe-payments-pro-settings.png)
 
 ## Webhooks 
-Make sure you have properly setup all our required webhooks events on your Stripe dashboard, [learn here](/stripe-payments/stripe-payment-forms/webhook) how to add the webhook events.
+Make sure you have properly setup all our required webhooks events on your Stripe dashboard, [learn here](https://docs.enupal.com/stripe-payments/stripe-payment-forms/webhook.html) how to add the webhook events.
 
 ::: tip
-To test locally make sure to install the Stripe Cli to forward the events to your local site, [instructions here](/stripe-payments/stripe-payment-forms/webhook)
+To test locally make sure to install the Stripe Cli to forward the events to your local site, [instructions here](https://docs.enupal.com/stripe-payments/stripe-payment-forms/webhook.html)
 :::
 
 ## Automatic Tax 
