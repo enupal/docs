@@ -17,15 +17,29 @@ Please follow the next two steps to redirect users to the customer portal:
 
 2.- As simple as adding the following form, a logged-in customer will be redirected to the customer portal, `(the user needs at least have one order)`
 
+3.- You can also pass the Order number for guest orders
 ```twig
-{% if currentUser %}
-    <form method="POST">
-        {{ csrfInput() }}
-        {{ actionInput('enupal-stripe/stripe/create-customer-portal') }}
-        <input type="hidden" name="returnUrl" value="{{ siteUrl('/account') }}">
-        <button type="submit">Manage billing</button>
-    </form>
-{% endif %}
+<form method="POST">
+    {{ csrfInput() }}
+    {{ actionInput('enupal-stripe/stripe/create-customer-portal') }}
+    <input type="hidden" name="returnUrl" value="{{ siteUrl('/account') }}">
+    
+    {# Optional field for Guest users #}
+    {#
+    <label for="orderNumber">
+        Order Number
+    </label>
+    <input name="orderNumber">
+    #}
+    
+    <button type="submit">Manage billing</button>
+    
+    {% if customerPortalError is defined %}
+        <div class="error">
+            {{ customerPortalError }}
+        </div>
+    {% endif %}
+</form>
 ```
 
 ![Connect Index](https://enupal.com/assets/docs/enupal-stripe-connect-16.png)
