@@ -25,9 +25,49 @@ The next step is do the same for your live keys. Under your Stripe Payments set
 
 ## Saving the Stripe API keys via config file
  
- If you don't want store your Stripe API keys in the database and add a security layer you can also store your Stripe API keys in your **general.php** config file, in the following example we're storing the API keys in the **.env** file and then retrieving the values in the config file:
- 
- ```php
+ If you don't want store your Stripe API keys in the database and add a security layer you can also store your Stripe API keys in your **config/general.php** config file in Craft 3 and **config/custom.php** config file in Craft 4, in the following example we're storing the API keys in the **.env** file and then retrieving the values in the config file:
+
+### Migrating from Craft 3 to Craft 4
+
+:::tip
+Craft 4, now requires store custom settings under the new `config/custom.php` file. Please make sure to migrate your `stripePayments` config settings to the `config/custom.php` file
+:::
+
+::: code
+```php Craft 4 (Test)
+ //config/custom.php
+<?php
+return [
+    'stripePayments' => [
+        'testPublishableKey' => getenv('YOUR_TEST_PUBLISHABLE_KEY'),
+        'testSecretKey' => getenv('YOUR_TEST_SECRET_KEY'),
+        'testMode' => true,
+        // Optional -> This setting is only needed is Stripe Connect is enabled 
+        'testClientId' => getenv('YOUR_TEST_CLIENT_ID'),
+        // Optional -> if you want to check webhook signatures you can add the following setting (more info here https://stripe.com/docs/webhooks/signatures)
+        'testWebhookSigningSecret' => getenv('TEST_WEBHOOK_SIGNING_SECRET')
+    ]
+];
+```
+
+```php Craft 4 (Live)
+ //config/custom.php
+<?php
+return [
+    'stripePayments' => [
+        'livePublishableKey' => getenv('YOUR_LIVE_PUBLISHABLE_KEY'),
+        'liveSecretKey' => getenv('YOUR_LIVE_SECRET_KEY'),
+        'testMode' => false,
+        // Optional ->This setting is only needed is Stripe Connect is enabled 
+        'liveClientId' => getenv('YOUR_LIVE_CLIENT_ID'),
+        // Optional -> if you want to check webhook signatures you can add the following setting (more info here https://stripe.com/docs/webhooks/signatures)
+        'liveWebhookSigningSecret' => getenv('LIVE_WEBHOOK_SIGNING_SECRET'),
+    ]
+];
+```
+
+ ```php Craft 3
+ //config/general.php
 <?php
 return [
     // Global settings
@@ -43,9 +83,9 @@ return [
             'testPublishableKey' => getenv('YOUR_TEST_PUBLISHABLE_KEY'),
             'testSecretKey' =>  getenv('YOUR_TEST_SECRET_KEY'),
             'testMode' => 1,
-            // This setting is only needed is Stripe Connect is enabled 
+            // Optional -> This setting is only needed is Stripe Connect is enabled 
             'testClientId' => getenv('YOUR_TEST_CLIENT_ID'),
-            // OPTIONALLY -> if you want to check webhook signatures you can add the following setting (more info here https://stripe.com/docs/webhooks/signatures)
+            // Optional -> if you want to check webhook signatures you can add the following setting (more info here https://stripe.com/docs/webhooks/signatures)
             'testWebhookSigningSecret' => getenv('TEST_WEBHOOK_SIGNING_SECRET'),
         ]
     ],
@@ -56,14 +96,16 @@ return [
             'livePublishableKey' => getenv('YOUR_LIVE_PUBLISHABLE_KEY'),
             'liveSecretKey' => getenv('YOUR_LIVE_SECRET_KEY'),
             'testMode' => 0,
-            // This setting is only needed is Stripe Connect is enabled 
+            // Optional -> This setting is only needed is Stripe Connect is enabled 
             'liveClientId' => getenv('YOUR_LIVE_CLIENT_ID'),
-            // OPTIONALLY -> if you want to check webhook signatures you can add the following setting (more info here https://stripe.com/docs/webhooks/signatures)
+            // Optional -> if you want to check webhook signatures you can add the following setting (more info here https://stripe.com/docs/webhooks/signatures)
             'liveWebhookSigningSecret' => getenv('LIVE_WEBHOOK_SIGNING_SECRET'),
         ]    
     ],
 ];
 ```
+:::
+
 ![Stripe Dashboard](https://enupal.com/assets/docs/_lightboxdocs/03-stripe-payments.png)
 
 ![Stripe Payments General Settings](https://enupal.com/assets/docs/_lightboxdocs/04-stripe-payments.png)
