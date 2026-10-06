@@ -1,6 +1,6 @@
 ---
-date: 2020-05-14
-description: Translate your website templates and plugins into multiple languages. Bulk translation with Google Translate or Yandex.
+date: 2026-10-06
+description: Translate entry content, templates and even plugins. With Google or AI.
 ---
 
 
@@ -11,41 +11,40 @@ description: Translate your website templates and plugins into multiple language
 	<img width="212" height="212" src="https://enupal.com/assets/docs/translate-icon.svg" alt="Enupal Translate"></a>
 </p>
 
-Translate your website templates and plugins into multiple languages. Bulk translation with Google Translate or Yandex.
+A multi-site build needs two kinds of translation: the static strings in your templates and plugins, and the content in your entries. Enupal Translate handles both.
 
-### Features
+Pick a target site, hit Translate, review the draft. Bigger jobs run in the background as Craft queue jobs, so you can carry on working.
 
-### Translate your templates and plugins easily with
+::: tip
+Content translation and the AI providers are new in 5.0. Static template translation is unchanged and works as it always has.
+:::
 
-*  [Yandex](https://translate.yandex.com/)
-*  [Google Translate](https://cloud.google.com/translate/?hl=es)
-*  Manually
+## Translate your content
 
-Translating your static texts has never been so easy:
+Translate any entry, asset, category or product into another site from the entry sidebar, or select several on an element index and do them in bulk. Results are saved as drafts by default, so nothing goes live unreviewed.
 
-### SYNC with database:
+Matrix, Neo, Super Table, CKEditor, Redactor, TinyMCE, Vizy, Hyper, Linkit, SEOmatic, Ether SEO and more — see [Supported fields](content/supported-fields.md) for the full list.
 
-Sync your static translations into your database without no extra queries that may impact your page load time.
+## Translate your templates and plugins
 
-This feature simply keeps a copy of your translations folder in the Database to facilitate your deployments and syncing your database translations with your templates folders. This feature avoids adding your translations folder to your version control system (git).
+Enupal Translate scans your templates for translatable strings and lets you translate them in bulk or by hand.
 
-### Download translations:
+* [Sync with the database](translate/sync-with-db.md), so you can deploy without committing translations to git
+* [Import and export CSV](translate/import-file.md) for all templates, a single template, or a plugin's strings
+* **Plugin developers:** translation files are written straight into your plugin's path, so you can internationalise your own plugins
 
-Download your translations as CSV file from the top right dropdown menu.
+## Choose your translator
 
-* For all templates
-* Specific templates
-* Plugins
+* [OpenAI](settings/openai.md) or [Claude](settings/claude.md) for translations that read naturally, with your own prompt, protected terms and tone of voice
+* [Google Cloud Translate](settings/google-translate.md) or [Yandex](settings/yandex.md) for fast, cheap machine translation
+* [Google Translate (Free)](settings/google-translate-free.md) for trying things out
+* Or type them yourself
 
-### Import translations:
+## Know what it costs
 
-Import your translations from a CSV file
+The [dashboard](dashboard/overview.md) shows how many translations you have made, split between templates and content, with token usage, API calls and anything that failed.
 
-### Plugin Developers!
-
-Enupal translate will generate all the translation files in your Plugin Path. Internationalize your plugins to reach more users in different countries!
-
-### Enupal Translate Support
+## Enupal Translate Support
 
 * Send us a note at: support@enupal.com
 
