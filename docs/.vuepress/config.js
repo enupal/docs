@@ -365,28 +365,58 @@ module.exports = {
           title: 'Getting started',
           collapsable: false,
           children: [
-            'getting-started/installation-setup'
+            'getting-started/installation-setup',
+            'getting-started/requirements'
           ]
         },
         {
-          title: 'Settings',
+          title: 'Providers',
           collapsable: false,
           children: [
-            'settings/yandex',
+            'settings/overview',
+            'settings/openai',
+            'settings/claude',
             'settings/google-translate',
-            'settings/google-translate-free'
+            'settings/google-translate-free',
+            'settings/yandex'
           ]
         },
         {
-          title: 'Translate',
+          title: 'Content translation',
+          collapsable: false,
+          children: [
+            'content/overview',
+            'content/translating-entries',
+            'content/bulk-translation',
+            'content/supported-fields',
+            'settings/content'
+          ]
+        },
+        {
+          title: 'Static translations',
           collapsable: false,
           children: [
             'translate/overview',
             'translate/manually',
+            'translate/bulk-ai',
             'translate/bulk-google-translate',
             'translate/bulk-yandex',
             'translate/sync-with-db',
             'translate/import-file'
+          ]
+        },
+        {
+          title: 'Dashboard',
+          collapsable: false,
+          children: [
+            'dashboard/overview'
+          ]
+        },
+        {
+          title: 'Development',
+          collapsable: false,
+          children: [
+            'development/events'
           ]
         }
       ],

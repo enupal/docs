@@ -7,7 +7,7 @@ description: Dynamically translate between thousands of available language pairs
 
 Dynamically translate between thousands of available language pairs
 
-[Get your Api for free here](https://tech.yandex.com/key/form.xml?service=trnsl)
+[Create an API key](https://console.cloud.google.com/apis/credentials)
 
 To use this method, go to the Plugin Settings: 
 

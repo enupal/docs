@@ -1,11 +1,11 @@
 ---
 date: 2020-11-16
-description: Sync your static translations into your database without no extra queries that may impact your page load time.
+description: Sync your static translations into your database without extra queries that may impact your page load time.
 ---
 
 # Sync with Database
 
-Sync your static translations into your database without no extra queries that may impact your page load time.
+Sync your static translations into your database without extra queries that may impact your page load time.
 
 This feature simply keeps a copy of your translations folder in the Database to facilitate your deployments and syncing your database translations with your templates folders. This feature avoids adding your translations folder to your version control system (git).
 
