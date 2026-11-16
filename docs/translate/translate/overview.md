@@ -7,6 +7,8 @@ description: Translate the static strings in your templates and plugins — the 
 
 Static translations are the strings that live in your templates rather than in your content: button labels, headings, form validation, anything you have wrapped in Craft's translate filter.
 
+![Finding and translating template strings](https://pluginscreenshots.craft-cdn.com/enupal-translate/_2200x2200_fit_center-center_none/1.png?1789754518)
+
 ::: tip
 Looking to translate the content inside your entries instead? See [Content translation](../content/overview.md).
 :::

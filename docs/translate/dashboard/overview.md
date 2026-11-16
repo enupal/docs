@@ -7,6 +7,8 @@ description: See how many translations you have made and what they cost in token
 
 **Enupal Translate → Dashboard** shows what you have translated and what it cost.
 
+![The translation dashboard](https://pluginscreenshots.craft-cdn.com/enupal-translate/_2200x2200_fit_center-center_none/3.png?1789754520)
+
 ## Totals
 
 | | |

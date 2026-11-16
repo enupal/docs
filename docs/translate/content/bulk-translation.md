@@ -13,7 +13,7 @@ On any entry, asset, category or product index:
 
 Everything is handed to the Craft queue as a single job, so you can carry on working while it runs. One job covers every element and every target site you picked, which means one progress bar rather than one per site.
 
-![Translate to](https://enupal.com/assets/docs/11-enupal-translate.png)
+![The Translate to action on an element index](https://pluginscreenshots.craft-cdn.com/enupal-translate/_2200x2200_fit_center-center_none/2.png?1789754519)
 
 ## Watching progress
 

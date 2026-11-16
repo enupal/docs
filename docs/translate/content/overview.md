@@ -7,6 +7,8 @@ description: Translate the content inside your entries, assets, categories and p
 
 Alongside static template strings, Enupal Translate can translate the content inside your elements: entries, assets, categories and Commerce products.
 
+![Translating content from the element index or the entry sidebar](https://pluginscreenshots.craft-cdn.com/enupal-translate/_2200x2200_fit_center-center_none/2.png?1789754519)
+
 ::: tip
 Content translation needs two or more sites. On a single-site install these features are hidden.
 :::
