@@ -7,13 +7,7 @@ description: Translate a single entry into another site from the Enupal Translat
 
 Open any entry, asset, category or product. The **Enupal Translate** panel appears in the sidebar, below the meta fields.
 
-```
-ENUPAL TRANSLATE
-From        English (en-US)
-To          [ Spanish (es) — exists  ▾ ]
-With        [ ChatGPT (OpenAI)       ▾ ]
-[Translate]              Settings · Usage
-```
+![The Enupal Translate panel in the entry sidebar](https://pluginscreenshots.craft-cdn.com/enupal-translate/_2200x2200_fit_center-center_none/2.png?1789754519)
 
 **From** — the site you are currently editing. To translate in the other direction, switch to that site first.
 
